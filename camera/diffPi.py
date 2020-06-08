@@ -13,9 +13,8 @@ rawCapture = PiRGBArray(camera)
 sleep(1)
 camera.capture(rawCapture, format='bgr') # bemærk at vi gemmer som blå, grøn, rød
 frame1 = rawCapture.array
-sleep(1)
-camera.capture(rawCapture, format='bgr') # bemærk at vi gemmer som blå, grøn, rød
-frame2 = rawCapture.array
+frame2 = frame1
+
 
 # convert to grayscale
 frame1 = cv2.cvtColor(frame1,cv2.COLOR_BGR2GRAY)
