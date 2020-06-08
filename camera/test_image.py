@@ -24,5 +24,4 @@ if (c==ord('s')):
 	cv2.imwrite('CVImage.png', image)
 
 # lukker vinduer og videokamera
-vid.release()
 cv2.destroyAllWindows()

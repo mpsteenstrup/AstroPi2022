@@ -13,7 +13,9 @@ rawCapture = PiRGBArray(camera)
 sleep(1)
 camera.capture(rawCapture, format='bgr') # bemærk at vi gemmer som blå, grøn, rød
 frame1 = rawCapture.array
-frame2 = frame1
+sleep(1)
+camera.capture(rawCapture, format='bgr') # bemærk at vi gemmer som blå, grøn, rød
+frame2 = rawCapture.array
 
 
 # convert to grayscale
@@ -44,7 +46,5 @@ while True:
 
 
 
-# After the loop release the cap object
-vid.release()
 # Destroy all the windows
 cv2.destroyAllWindows()
