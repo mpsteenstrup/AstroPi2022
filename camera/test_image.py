@@ -5,23 +5,24 @@ from picamera import PiCamera
 from time import sleep
 import cv2
 
-camera = PiCamera()
-rawCapture = PiRGBArray(camera)
 
-# giver kameraet tid til at indstille sig
-sleep(1)
-
-camera.capture(rawCapture, format='bgr') # bemærk at vi gemmer som blå, grøn, rød
-image = rawCapture.array
+with PiCamera() as camera:
+	rawCapture = PiRGBArray(camera)
+	# giver kameraet tid til at indstille sig
+	sleep(1)
+	camera.capture(rawCapture, format='bgr') # bemærk at vi gemmer som blå, grøn, rød
+	image = rawCapture.array
 
 cv2.imshow("Image", image)
 
 # viser billedet indtil tastaturet trykkes
 c = cv2.waitKey(0)
 
+# lukker vinduer og videokamera
+cv2.destroyAllWindows()
+
 # hvis man trykker s så gem billed
 if (c==ord('s')):
 	cv2.imwrite('CVImage.png', image)
 
-# lukker vinduer og videokamera
-cv2.destroyAllWindows()
+
