@@ -15,17 +15,7 @@ with PiCamera() as camera:
     camera.capture(rawCapture, format='bgr') # bemærk at vi gemmer som blå, grøn, rød
     frame1 = rawCapture.array
 
-<<<<<<< HEAD
-# giver kameraet tid til at indstille sig
-sleep(1)
-camera.capture(rawCapture, format='bgr') # bemærk at vi gemmer som blå, grøn, rød
-frame1 = rawCapture.array
-sleep(1)
-camera.capture(rawCapture, format='bgr') # bemærk at vi gemmer som blå, grøn, rød
-frame2 = rawCapture.array
-=======
 frame2 = frame1
->>>>>>> c70f69d283cd96af9f28b882b2752a8960df2ab1
 
 
 # convert to grayscale
