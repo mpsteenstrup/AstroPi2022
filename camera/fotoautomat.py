@@ -11,5 +11,4 @@ with PiCamera() as camera:
         print(1)
         sleep(1)
         print('GO')
-        img = camera.capture('img%d.jpg'%i)
-        cv2.imshow("Image", img)
+        camera.capture('img%d.jpg'%i)

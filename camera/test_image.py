@@ -18,11 +18,9 @@ cv2.imshow("Image", image)
 # viser billedet indtil tastaturet trykkes
 c = cv2.waitKey(0)
 
-# lukker vinduer og videokamera
+# lukker vinduer
 cv2.destroyAllWindows()
 
 # hvis man trykker s så gem billed
 if (c==ord('s')):
 	cv2.imwrite('CVImage.png', image)
-
-
