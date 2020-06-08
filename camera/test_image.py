@@ -1,19 +1,28 @@
+# billeder i raw kvalitet, hvor der ikke sker en kompression til jpg, det gør processen hurtigere og vi mister ikke information
+
 from picamera.array import PiRGBArray
 from picamera import PiCamera
-import time
+from time import sleep
 import cv2
 
 camera = PiCamera()
 rawCapture = PiRGBArray(camera)
 
-time.sleep(0.1)
+# giver kameraet tid til at indstille sig
+sleep(1)
 
-camera.capture(rawCapture, format='bgr')
+camera.capture(rawCapture, format='bgr') # bemærk at vi gemmer som blå, grøn, rød
 image = rawCapture.array
 
 cv2.imshow("Image", image)
 
+# viser billedet indtil tastaturet trykkes
 c = cv2.waitKey(0)
 
+# hvis man trykker s så gem billed
 if (c==ord('s')):
-	cv2.imwrite('CVImage.png', image) 
+	cv2.imwrite('CVImage.png', image)
+
+# lukker vinduer og videokamera
+vid.release()
+cv2.destroyAllWindows()
