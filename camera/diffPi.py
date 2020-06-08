@@ -6,13 +6,15 @@ import numpy as np
 
 # define a video capture object
 
-camera = PiCamera()
-rawCapture = PiRGBArray(camera)
+# camera = PiCamera()
 
-# giver kameraet tid til at indstille sig
-sleep(1)
-camera.capture(rawCapture, format='bgr') # bemærk at vi gemmer som blå, grøn, rød
-frame1 = rawCapture.array
+
+with PiCamera() as camera:
+    rawCapture = PiRGBArray(camera)    # giver kameraet tid til at indstille sig
+    sleep(1)
+    camera.capture(rawCapture, format='bgr') # bemærk at vi gemmer som blå, grøn, rød
+    frame1 = rawCapture.array
+
 frame2 = frame1
 
 
@@ -44,7 +46,5 @@ while True:
 
 
 
-# After the loop release the cap object
-vid.release()
 # Destroy all the windows
 cv2.destroyAllWindows()
