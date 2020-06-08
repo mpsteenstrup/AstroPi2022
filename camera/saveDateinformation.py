@@ -18,7 +18,7 @@ with PiCamera() as camera:
 cv2.putText(image,tid,(200,200),cv2.FONT_HERSHEY_SIMPLEX ,1,(255, 0, 0), 2 )
 cv2.imshow("Image", image)
 
-# viser billedet indtil tastaturet trykkes
+# viser  billedet indtil tastaturet trykkes
 c = cv2.waitKey(0)
 
 # lukker vinduer
