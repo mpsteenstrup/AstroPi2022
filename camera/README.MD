@@ -35,7 +35,7 @@ OpenCV er et bibliotek til billedgenkendelse og maskinlæring. I  [test_image.py
 
 ### opgaver
 * Peg kameraet mod noget farvet og tag et billed.
-* byt nu rundt på ```bgr```til den normale ```rgb```i koden.
+* byt nu rundt på ```bgr``` til den normale ```rgb```i koden.
 * Hvad sker der med farverne på billedet?
 
 ```c = cv2.waitKey(0)``` venter til en tast er trykket og ```cv2.destroyAllWindows()``` lukker vinduerne.

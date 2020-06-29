@@ -4,8 +4,6 @@ from picamera import PiCamera
 import time
 import cv2
 
-image = []
-
 # initialize the camera and grab a reference to the raw camera capture
 camera = PiCamera()
 camera.resolution = (640, 480)
@@ -30,6 +28,9 @@ for frame in camera.capture_continuous(rawCapture, format="bgr", use_video_port=
     # if the `q` key was pressed, break from the loop
     if key == ord("q"):
         break
+
+    cv2.subtract(image, image2)
+
 
     image2 = image
 

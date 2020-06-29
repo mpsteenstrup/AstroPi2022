@@ -16,15 +16,20 @@ height, width, nchannels = frame.shape
 #fourcc = cv2.VideoWriter_fourcc(*'MJPG')
 #out = cv2.VideoWriter( outfilename,fourcc, fps, (width,height))
 
+
 while(True):
 
     # previous frame
     frame0 = frame
-    print(frame0.shape)
     # new frame
     ret, frame = cap.read()
     if not ret:
         break
+
+    frame0 = cv2.cvtColor(frame0, cv2.COLOR_BGR2GRAY)
+    frame0 = cv2.GaussianBlur(frame0, (21, 21), 0)
+    frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+    frame = cv2.GaussianBlur(frame, (21, 21), 0)
 
 
     # how different is it?
