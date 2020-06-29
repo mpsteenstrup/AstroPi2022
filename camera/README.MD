@@ -3,18 +3,32 @@
 Der er to kameraer på ISS, et som peger ned mod Jorden og et som peger ind i rumstationen.
 
 ## programmer
+Programmerne bruger biblioteket ```PiCamera``` og virker derfor kun på Raspberry Pi. Vi kommer gennem programmerne gennem opgaverne nedenunder.
 * [takePicture.py](takePicture.py), simpelt program til at gemme fire billeder
 * [test_image.py](test_image.py), bruger openCV til at behandle billedet og gemme det.
 * [test_video.py](test_image.py), bruger openCV til at behandle og gemme video.
 * [saveDateinformation.py](saveDateinformation.py), importer og gem dato og tidspunkt.
 
 
+
+
 ## opgaver
+## Første billeder
+
+* Kør programmet, [takePicture.py](takePicture.py) og åben folderen og se dine billeder.
+* Kør programmet igen og tjek om den overskriver de første billeder.
+* Læs kommentarerne i filen.
+* Ret ```('img%d.jpg'%i)``` til ```('img%04d.jpg'%i)```. Hvad er forskellen?
+* Find ud af hvordan man laver om på opløsningen ved at kigge i dokumentaionen, [picamera](https://picamera.readthedocs.io/en/release-1.13/recipes1.html).
+
+
 ### Fotoautomat
 Vores helt egen fotoautomat, tager udgangspunkt i programmet [takePicture.py](takePicture.py). Husk at test hver gang I laver noget om, så fanger I lettere fejl.
 
-* Ret i koden så den venter 3 sekunder mellem hvert billed.
-* Brug ```print()``` til at lave en nedtælling.
+
+* Skriv en besked i konsollen om at billedet tages, ```print('NU')```.
+* Ret i koden så pausen på 2 sekunder er efter der bliver skrevet print.
+* Nu er det bare at skrive pauser og tekst, så har I lavet en nedtælling.
 
 ## open CV
 OpenCV er et bibliotek til billedgenkendelse og maskinlæring. I  [test_image.py](test_image.py) bruger vi rådata fra kameraet, ```PiRGBArray```. Det har den fordel, at vores Astro Pi ikke skal bruge ressourcer på at komprimere det til jpg og vi har alt informationen til databehandling. OpenCV bruger formatet ```bgr```, altså Blå, Grøn, Rød, hvilket er specificeret i linje 13

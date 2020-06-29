@@ -16,7 +16,7 @@ with PiCamera() as camera:
 	image = rawCapture.array
 
 cv2.putText(image,tid,(200,200),cv2.FONT_HERSHEY_SIMPLEX ,1,(255, 0, 0), 2 )
-image.exif_tags['tid'] = tid
+
 
 cv2.imshow("Image", image)
 

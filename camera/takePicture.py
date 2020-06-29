@@ -1,3 +1,4 @@
+# importerer bibliotekerne Picamera og sleep
 from picamera import PiCamera
 from time import sleep
 
