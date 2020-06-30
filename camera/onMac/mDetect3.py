@@ -26,12 +26,6 @@ while(True):
     if not ret:
         break
 
-    frame0 = cv2.cvtColor(frame0, cv2.COLOR_BGR2GRAY)
-    frame0 = cv2.GaussianBlur(frame0, (21, 21), 0)
-    frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-    frame = cv2.GaussianBlur(frame, (21, 21), 0)
-
-
     # how different is it?
     if np.sum( np.absolute(frame-frame0) )/np.size(frame) > threshold:
 #        out.write( frame )
