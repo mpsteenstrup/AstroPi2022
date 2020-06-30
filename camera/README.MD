@@ -82,3 +82,28 @@ PAS PÅ, den sletter faktisk filerne!!!
 * Ret i koden så det kun er den mappes indhold som slettes.
 * Udkommenter de nederste 3 linjer, #, og tjek om det er de billeder som skal slettes.
 * Kør programmet hvor I sletter billederne, uhuuu.
+
+
+
+
+
+# Kameraopløsning
+Vi bruger billederne på [Flickr](https://www.flickr.com/photos/raspberrypi/albums/with/72157676394992328) fra tidligere missioner.
+
+På billedet [billeder/Bankok14.39052N99.30089N.jpg] kan man rimeligt tydeligt se en ø og koordinaterne er skrevet på billedet. Vi vil prøve at finde størrelsesforholdet af vores billed. Det er ikke muligt at bruge koordinaterne direkte, men hvis man søger lidt på google maps ligner det at det godt kan være øen Mali Kyun på Thailands kyst [google maps](https://www.google.com/maps/place/14%C2%B023'25.9%22N+99%C2%B018'03.2%22E/@13.0156668,98.1246662,54528m/data=!3m1!1e3!4m5!3m4!1s0x0:0x0!8m2!3d14.39052!4d99.30089).
+
+## Opgave
+Vi vil nu måle afstanden i på google maps og den tilsvarende afstand i pixels på billedet. Vi skal gøre det vandret og vi ved at billedet har en opløsning på (1920x1080) pixels.
+* Brug værktøjerne i google maps til finde afstanden fra spidsen af Mali Kyun til Great Western Torres islands ( en lille ø).
+* Mål længden i pixels på billedet.
+* Beregn lænden per pixe.
+* Beregn længden af den synlige fra rumstationen.
+* Giv et bud på usikkerheden.
+* Vurder om det er muligt at se Emma Mærsk på 397m længde.
+
+min løsning:
+* d_Kyun_Torres = 180.63km
+* Antal pixels = 851px
+* Opløsning = 0.21km/px = 210m/px
+* Bredden af billedet er d=1634px=>347km
+* Hvis jeg har målt 10px forkert bliver intervallet [210m;215m] per px.
