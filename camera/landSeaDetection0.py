@@ -44,5 +44,5 @@ while (now_time < start_time + datetime.timedelta(minutes=1)):
     camera.capture(path_and_filename)
     print("after image capture")
     img = cv2.imread(path_and_filename)
-    nborder_pixel, nsea_pixel, ncloud_pixel, nground_pixel, total_img_pixel =global_classificator(img)
+
     now_time = datetime.datetime.now()
