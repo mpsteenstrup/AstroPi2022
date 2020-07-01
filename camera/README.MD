@@ -77,7 +77,7 @@ PAS PÅ, den sletter faktisk filerne!!!
 
 ### opgaver - slet filerne
 * Opret et nyt
-* Opret en ny mappe, ``˛sletTest```
+* Opret en ny mappe, ```sletTest```
 * Tag et par billeder i mappen eks. Med ```raspistill -o test.jpg```  i konsolen.
 * Ret i koden så det kun er den mappes indhold som slettes.
 * Udkommenter de nederste 3 linjer, #, og tjek om det er de billeder som skal slettes.

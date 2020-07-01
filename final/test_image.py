@@ -7,7 +7,7 @@ import cv2
 
 
 with PiCamera() as camera:
-	camera.resolution = (1296,972)
+	camera.resolution = (2592,1944)
 	rawCapture = PiRGBArray(camera)
 	# giver kameraet tid til at indstille sig
 	sleep(1)
