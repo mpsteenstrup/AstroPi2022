@@ -25,3 +25,15 @@ print("tempo iniziale", start_time)
 # Apro cattura immagini
 camera = PiCamera()
 camera.resolution = (1296,972)
+
+
+
+
+while (now_time < start_time + datetime.timedelta(minutes=1)):
+    print("Doing stuff")
+    sleep(1)
+
+
+    dir_path = os.path.dirname(os.path.realpath(__file__))
+    print(dir_path)
+    f= open(dir_path+"/data01.csv","a")
