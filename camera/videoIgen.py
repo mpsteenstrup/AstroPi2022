@@ -15,7 +15,7 @@ rawCapture = PiRGBArray(camera, size=(640, 480))
 time.sleep(0.1)
 # capture frames from the camera
 while True:
-    frame0 = camera.capture(rawCapture, format="bgr", use_video_port=True)
+    frame = camera.capture(rawCapture, format="bgr", use_video_port=True)
     image = frame.array
     cv2.imshow("Frame", image)
     if key == ord("q"):
