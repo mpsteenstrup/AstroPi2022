@@ -1,12 +1,8 @@
 import numpy as np
 import cv2
 
-interval = 100
-fps = 1000./interval
-camnum = 0
-outfilename = 'temp.avi'
 
-threshold=100.
+threshold=100
 
 cap = cv2.VideoCapture(0)
 
@@ -34,15 +30,11 @@ while(True):
     # show it
     cv2.imshow('Type "q" to close',frame)
 
-    # check for keystroke
-    key = cv2.waitKey(interval) & 0xFF
-
     # exit if so-commanded
-    if key == ord('q'):
-        print('received key q' )
+    key = cv2.waitKey(1) & 0xFF
+    if key == ord("q"):
         break
 
 # When everything done, release the capture
 cap.release()
-#out.release()
-print('VideoDemo - exit' )
+print('Video exit' )
