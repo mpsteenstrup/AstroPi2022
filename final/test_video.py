@@ -31,8 +31,5 @@ for frame in camera.capture_continuous(rawCapture, format="bgr", use_video_port=
     if key == ord("q"):
         break
 
-    image2 = image
-
 # lukker vinduer og videokamera
-vid.release()
 cv2.destroyAllWindows()
