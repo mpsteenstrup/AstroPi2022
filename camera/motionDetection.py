@@ -1,6 +1,18 @@
-import numpy as np
+from picamera.array import PiRGBArray
+from picamera import PiCamera
+import time
 import cv2
+import numpy as np
 
+image0 = []
+image1 = []
+
+camera = PiCamera()
+camera.resolution = (640, 480)
+camera.framerate = 32
+rawCapture = PiRGBArray(camera, size=(640, 480))
+
+"""
 interval = 100
 fps = 1000./interval
 camnum = 0
@@ -46,3 +58,5 @@ while(True):
 cap.release()
 #out.release()
 print('VideoDemo - exit' )
+
+"""
