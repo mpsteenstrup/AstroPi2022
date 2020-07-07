@@ -20,6 +20,6 @@ for f in files:
 os.mkdir('test')
 
 # for at fjerne en hel folder, PAS PÅ, I sletter!!!
-files =os.listdir('test')
-for f in files:
-        print('test/',f)
+#files =os.listdir('test')
+#for f in files:
+#        print('test/',f)

@@ -1,6 +1,6 @@
 import numpy as np
 import cv2
-from time import sleep
+
 
 count = 0
 new = False
@@ -33,11 +33,6 @@ while(True):
         change = False
     # show it
     cv2.imshow('Type "q" to close',np.absolute(frame-frame0))
-
-    if change == True:
-        count += 1
-        sleep(1)
-        print(count)
 
     # exit if so-commanded
     key = cv2.waitKey(1) & 0xFF
