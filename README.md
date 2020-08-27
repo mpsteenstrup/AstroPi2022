@@ -1,6 +1,5 @@
 # AstroPi2020
 
+Astro Pi materiale kan findes, [AstroPiMateriale.pdf](AstroPiMateriale.pdf)
 
-Repository til samarbejde om AstroPi materiale.
-
-Strukturen er pt. at ```final```folderen er til de afsluttede, resten er prøveballoner.
+Python filerne kan findes her, [pythonFiler](pythonFiler)
