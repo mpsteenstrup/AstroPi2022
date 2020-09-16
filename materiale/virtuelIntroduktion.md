@@ -1,5 +1,7 @@
 # Virtuel introduktion til Astro Pi
-Der findes en online Astro Pi emulatior så man kan komme i gang uden selve Astro Pi computeren. Den simpleste start er her:
+Der findes en online Astro Pi emulatior så man kan komme i gang uden selve Astro Pi computeren.
+
+Den simpleste start er her:
 [https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat)
 
 Følgende afsnit giver en god indføring. Der er flere eksempler end man har tid og lyst til, men så må man udvælge.
