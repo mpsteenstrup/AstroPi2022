@@ -1,6 +1,12 @@
 # Virtuel introduktion til Astro Pi
 Der findes en online Astro Pi emulatior så man kan komme i gang uden selve Astro Pi computeren.
 
+### Cheat sheet og dokumentation
+Her er links til et hurtigt oversigtsdokument, cheat Sheet, og sensehat dokumentationen.
+* [Cheat Sheet](http://www.tecoed.co.uk/uploads/1/4/2/4/14249012/sense_hat.pdf)
+* [SenseHat referencer](https://pythonhosted.org/sense-hat/api/)
+
+### Online introduktion
 Den simpleste start er her:
 [https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat)
 
@@ -16,7 +22,7 @@ Mere specifike skal I kunne
 
 På [https://trinket.io](https://trinket.io) kan man gemme sin kode og køre den virtuelt. De fleste elever brugte bare emulatoren på Astro Pi hjemmesiden, men trinket kan bruges til at dele eksempelkode mm.
 
-![virtuelIntroduktion](materiale/billeder/virtuelIntroduktion.png)
+![virtuelIntroduktion](billeder/virtuelIntroduktion.png)
 
 ### Opgave
 Prøv at udforsk hvad senseHat modulet kan, fokuser på de afsnit i røde bokse.
