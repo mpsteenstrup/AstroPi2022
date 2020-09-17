@@ -107,4 +107,4 @@ Tiden bliver styret af biblioteket datetime. Vi kan finde antallet af sekunder s
 Hvis vi vil have det i sekunder kan vi bruge ```interval.total_seconds()```.
 
 ### Opgave
-* Lav om i filen, [gemDataKolonner.py](pythonFiler/gemDataKolonner.py),  så det er tiden som er gået i sekunder vi gemmer.
+* Lav om i filen, [gemDataKolonner.py](/pythonFiler/gemDataKolonner.py),  så det er tiden som er gået i sekunder vi gemmer.
