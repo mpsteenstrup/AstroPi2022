@@ -30,7 +30,7 @@ Prøv at udforsk hvad senseHat modulet kan, fokuser på de afsnit i røde bokse.
 ## Gemme data virtuelt
 Det er selvfølgeligt vigtigt at kunne gemme sin data. Det er heldigvis ikke så svært.
 
-Den simpleste, AstroPiSimelGemData
+Den simpleste, [AstroPiSimelGemData](https://trinket.io/library/trinkets/create?lang=python)
 ```
 with open ('gemData.csv', 'w') as file:
   file.write('gem denne streng')
@@ -51,7 +51,7 @@ Settings, hvor man overskriver med write, tilføjer med append og læser med rea
 * Gamme data som cvs kolonner
 * Hvis vi skal importere data i regneark og lignende er standarden at gemme som kommasepareret fil.  Det kan jo godt give problemer for os da vi bruger komme til noget andet og hvis I får problemer med det så brug ; i stedet.
 
-Et lidt større eksempel [gemDataKolonner.py](/pythonFiler/gemDataKolonner.py)
+Et lidt større eksempel [gemDataKolonner.py trinket](https://trinket.io/library/trinkets/aa816292ce)
 ```
 import datetime
 from time import sleep
