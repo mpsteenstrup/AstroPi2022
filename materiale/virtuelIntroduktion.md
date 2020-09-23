@@ -30,7 +30,7 @@ Prøv at udforsk hvad senseHat modulet kan, fokuser på de afsnit i røde bokse.
 ## Gemme data virtuelt
 Det er selvfølgeligt vigtigt at kunne gemme sin data. Det er heldigvis ikke så svært.
 
-Den simpleste, [AstroPiSimelGemData](https://trinket.io/library/trinkets/create?lang=python)
+Den simpleste, [AstroPiSimelGemData](https://trinket.io/library/trinkets/1f26905355)
 ```
 with open ('gemData.csv', 'w') as file:
   file.write('gem denne streng')
