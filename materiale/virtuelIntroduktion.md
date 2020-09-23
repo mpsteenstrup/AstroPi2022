@@ -22,7 +22,7 @@ Mere specifike skal I kunne
 
 På [https://trinket.io](https://trinket.io) kan man gemme sin kode og køre den virtuelt. De fleste elever brugte bare emulatoren på Astro Pi hjemmesiden, men trinket kan bruges til at dele eksempelkode mm.
 
-![virtuelIntroduktion](billeder/virtuelIntroduktion.png)
+![virtuelIntroduktion](/billeder/virtuelIntroduktion.png)
 
 ### Opgave
 Prøv at udforsk hvad senseHat modulet kan, fokuser på de afsnit i røde bokse.
