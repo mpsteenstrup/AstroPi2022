@@ -4,7 +4,7 @@ Med den virtuelle adgang eller med skærm og tastatur er det nu I skal arbejde m
 
 Pas på med at have for mange programmer åbne på samme tid, det er en microcomputer med begrænset regnekraft.
 
-![TonnyEditoren.png](billeder/TonnyEditoren.png)
+![TonnyEditoren.png](/materiale/billeder/TonnyEditoren.png)
 
 ### Opgave
 * Åben Thonny og skriv ```print('Astro Pi')```
@@ -23,7 +23,7 @@ Vores Astro Pi kan godt lide at blive slukket rigtigt, hvilket man gør som man 
 Vi kan selvfølgeligt køre programmer på vores Astro Pi ellers var den jo ubrugelig.
 
 ### Opgave
-* Copy-paste programkoden fra [gemDataKolonner.py](pythonFiler/gemDataKolonner.py) ind i Thonny editoren og kør programmet. ( copy paste er ikke helt stabilt, men prøv et par gange hvis det ikke virker umiddelbart og husk at paste er crtl v, og ikke cmd v i linux, brug evt. musen og højreklik).
+* Copy-paste programkoden fra [gemDataKolonner.py](/pythonFiler/gemDataKolonner.py) ind i Thonny editoren og kør programmet. ( copy paste er ikke helt stabilt, men prøv et par gange hvis det ikke virker umiddelbart og husk at paste er crtl v, og ikke cmd v i linux, brug evt. musen og højreklik).
 * Det kan være rart at se at programmet kører og stopper så skriv print('starter') og print('slutter') fornuftige steder i programmet.
 * Åben test.csv filen inde fra Thonny og tjek at I har fået det data I vil.
 
@@ -36,8 +36,7 @@ Hvis det ikke virker kan man bruge VNC viewer programmet.
 ## VNC viewer
 I midten toppen er der en lille menu hvor man kan sende filer til Astro Pi computeren. Den er lidt hemmelig, men man kan godt finde den.
 
-![billeder/VNCDataUd.png](billeder/VNCDataUd.png)
-
+![billeder/VNCDataUd.png](/materiale/billeder/VNCDataUd.png)
 
 Terminal
 Ligesom vi kan få adgang til vores Astro Pi gennem ssh, kan vi også sende filer med scp.
@@ -56,7 +55,7 @@ Derefter kodeord
 ### Data ud af RPI
 Med VNC kan man overføre filer og mapper, godt for backup, backup er vigtigt!!!
 
-![VNCTransferFile.png](billeder/VNCTransferFile.png)
+![VNCTransferFile.png](/materiale/billeder/VNCTransferFile.png)
 
 * Med Raspbian, styresystemet,  klik på VNC symbolet.
 * Vælg File Transfer fra drop down menuen i højre hjørne.
@@ -68,7 +67,7 @@ Eks. hvis jeg vil flytte filen test.cvs filen fra Astro Pi til min egen computer
 ```scp pi@192.168.1.99:/home/pi/mp/test.csv /Users/mpsteenstrup```
 altså
 ```scp pi@ipadresse:/stiTilFil stiTilMappe```
-Her har jeg lavet mappen mp og kørt programmet (gemDataKolonner.py) fra denne mappe.
+Her har jeg lavet mappen mp og kørt programmet gemDataKolonner.py fra denne mappe.
 
 ### Opgave
 * Overfør datafilen til computren og åben den, eks. i LoggerPro.
