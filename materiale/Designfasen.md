@@ -4,9 +4,9 @@
 
 To participate in Mission Space Lab, teams will have to come up with an idea for an experiment that fits one of the following two themes:
 
-##THEME A - LIFE IN SPACE
+## THEME A - LIFE IN SPACE
 Teams that choose to investigate ‘Life in space’ will use the Astro Pi computer called Ed to investigate life inside the Columbus module of the ISS.
-##THEME B - LIFE ON EARTH
+## THEME B - LIFE ON EARTH
 Teams that choose to investigate ‘Life on Earth’ will use the Astro Pi computer called Izzy, including its sensors and its near-infrared camera facing out of an ISS window towards Earth, to investigate life on the planet’s surface.
 
 
@@ -51,6 +51,7 @@ Overordnet problemstilling
   -> Hvad vil vi gerne måle.
     -> Hvilke sensorer vil vi bruge.
       -> Hvilke svar på en overordnede problemstilling giver målingerne.
-        -> rededinering af den overordnede problemstilling.
-          -> forfra.
+        -> Hvor vanskeligt er det at få målingerne.
+          -> rededinering af den overordnede problemstilling.
+            -> forfra.
 ```
