@@ -36,7 +36,7 @@ from sense_hat import SenseHat
 sense = SenseHat()
 sense.clear()
 temp = sense.get_temperature()
-sense.show_message('Temperaturen er: {:0.2d}'.format(temp))
+sense.show_message('Temperaturen er: {:0.2f}'.format(temp))
 ```
 
 ### Øvelse
@@ -60,7 +60,13 @@ I har nu samlet data op med jeres Astro Pi og er faktisk ikke så langt fra at k
 Den simpleste måde er nok standard copy-paste, hvor Astro Pi bruger ctrl og ikke cmd tasten.
 Hvis det ikke virker kan man bruge VNC viewer programmet.
 
-## VNC viewer
+## VNC viewer - adgang fra den bærbare
+Med VNC viewer kan I få adgang til jeres Astro Pi virtuelt. I kan hente programmer her, [www.realvnc.com](https://www.realvnc.com/en/connect/download/viewer/).
+
+
+
+
+
 I midten toppen er der en lille menu hvor man kan sende filer til Astro Pi computeren. Den er lidt hemmelig, men man kan godt finde den.
 
 ![billeder/VNCDataUd.png](/materiale/billeder/VNCDataUd.png)
