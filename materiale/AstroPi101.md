@@ -16,6 +16,33 @@ I har nu jeres egen mappe og skal IKKE ændre i andre mapper, vel?
 
 I princippet har I nu en Linux computer som kan langt det meste som I har brug for. Tag et kig i menuen og se hvor meget gratis open source programmer der er og hvor meget en computer til 500 kr kan!
 
+## Astro Pi display
+Vi kan skrive tekst på vores 8x8 pixel display på den påsatte SenseHat. I kan bruge det I lærte i *virtuelIntroduktion* eller se på  [cheat sheet](http://www.tecoed.co.uk/uploads/1/4/2/4/14249012/sense_hat.pdf)
+
+Koden skriver en tekst over displayet.
+```
+from sense_hat import SenseHat
+sense = SenseHat()
+sense.clear()
+sense.show_message('One small step for Pi!', text_colour=[255,0,0])
+```
+### Øvelse
+* Kopier koden over i Tonney editoren og kør den.
+* Leg med at få den til at vise noget andet.
+
+I kan også vise målte værdier. Koden her gør det.
+```
+from sense_hat import SenseHat
+sense = SenseHat()
+sense.clear()
+temp = sense.get_temperature()
+sense.show_message('Temperaturen er: {:0.2d}'.format(temp))
+```
+
+### Øvelse
+* Få jeres Astro Pi til at vise temperaturen.
+* Få den til at vise noget andet.
+
 ## Tænd og sluk
 Vores Astro Pi kan godt lide at blive slukket rigtigt, hvilket man gør som man forventer, ingen hints. Hvis den er slukket tænder man den ved at tænde for strømmen, bum computere er nemme.
 

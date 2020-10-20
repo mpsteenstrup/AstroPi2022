@@ -66,3 +66,7 @@ Head to the [Mission Space Lab web page](https://astro-pi.org/mission-space-lab/
 
 Your answers to these questions will help us assess your experiment for its **feasibility**, **scientific value**, and **creativity**.
 You will also need to decide on a unique team name. This name must have eight or fewer characters and contain no spaces. The team name should also only have alphanumeric characters — no symbols.
+
+
+## Registrering
+I kan registrere jeres projekter her, [https://forms.raspberrypi.org/msl-team-registration/](https://forms.raspberrypi.org/msl-team-registration/).
