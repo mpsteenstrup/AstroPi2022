@@ -63,6 +63,9 @@ Hvis det ikke virker kan man bruge VNC viewer programmet.
 ## VNC viewer - adgang fra den bærbare
 Med VNC viewer kan I få adgang til jeres Astro Pi virtuelt. I kan hente programmer her, [www.realvnc.com](https://www.realvnc.com/en/connect/download/viewer/).
 
+For at få adgang skal I helst være på samme netværk med jeres bærbare og Astro Pi computeren. I skal indtaste IP-adressem som I finder ved at klikke på VNC symbolet i højre hjørne på Astro Pi skærmen.
+![VNC.png](/materiale/billeder/VNC.png)
+
 
 
 
@@ -70,20 +73,6 @@ Med VNC viewer kan I få adgang til jeres Astro Pi virtuelt. I kan hente program
 I midten toppen er der en lille menu hvor man kan sende filer til Astro Pi computeren. Den er lidt hemmelig, men man kan godt finde den.
 
 ![billeder/VNCDataUd.png](/materiale/billeder/VNCDataUd.png)
-
-Terminal
-Ligesom vi kan få adgang til vores Astro Pi gennem ssh, kan vi også sende filer med scp.
-
-Det kan gøres med scp sådan i en terminal
-
-```scp fil brugernavn@ipadresse:```
-
-eks.
-
-``` scp sort.jpg pi@192.168.1.99:```
-
-Derefter kodeord
-
 
 ### Data ud af RPI
 Med VNC kan man overføre filer og mapper, godt for backup, backup er vigtigt!!!
@@ -94,14 +83,6 @@ Med VNC kan man overføre filer og mapper, godt for backup, backup er vigtigt!!!
 * Vælg File Transfer fra drop down menuen i højre hjørne.
 * Find filen og overfør den.
 
-Det kan også gøres med terminalen på jeres lokale maskine og scp:
-
-Eks. hvis jeg vil flytte filen test.cvs filen fra Astro Pi til min egen computer
-```scp pi@192.168.1.99:/home/pi/mp/test.csv /Users/mpsteenstrup```
-altså
-```scp pi@ipadresse:/stiTilFil stiTilMappe```
-Her har jeg lavet mappen mp og kørt programmet gemDataKolonner.py fra denne mappe.
-
-### Opgave
+ ### Opgave
 * Overfør datafilen til computren og åben den, eks. i LoggerPro.
 * Undersøg hvor meget filen fylder og overvej om det kan give problemer i et 3 timer langt forsøg med maksimal 3Gb til rådighed.
