@@ -52,5 +52,5 @@ print('vinkel mellem Solen og ISS er {:1.6f} radian.'.format(vinkel))
 ## Er det nat på ISS?
 Hvis Solen og ISS er på hver side må det være nat.
 
-Tegningen viser $\alpha$
+Tegningen viser \alpha
 ![Nat på ISS](/materiale/billeder/nat.png)
