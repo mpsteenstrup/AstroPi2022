@@ -4,7 +4,7 @@ ISS bevæger sig rundt om Jorden med en omløbstid på 90 minutter. Dette giver 
 For at bestemme Solen og Månens placering bruger vi *Equatorial coordinate system* eller Ækvatoriale koordinatsystem. Det er også et geocentrisk koordinatsystem med centrum i Jordens centrum.
 
 I sfæriske koordinater er det givet ved.
-* Vinklen fra ækvator, Declination (Dec), med +$\pi$/2 ved nordpolen og -$\pi$/2 ved sydpolen, regnet i radianer.
+* Vinklen fra ækvator, Declination (Dec), med +&pi;/2 ved nordpolen og -&pi;/2 ved sydpolen, regnet i radianer.
 * Vinkel langs ækvator fra højre om eller *right ascension* (Ra), fra Vernal Equinox punktet.
 
 *Veral Equinox* punkt (VE) er der hvor Ækvator skærer Ekliptika ved forårsjævndøgn. Altså det punkt som peger mod Solen lige over Ækvator ved forårsjævndøgn.
@@ -52,19 +52,12 @@ print('vinkel mellem Solen og ISS er {:1.6f} radian.'.format(vinkel))
 ## Er det nat på ISS?
 Hvis Solen og ISS er på hver side må det være nat.
 
-Tegningen viser vinklerne langs ækvator, alpha er Solen, beta er ISS og gamma er forskellen.
+Tegningen viser vinklerne langs ækvator, &alpha; er Solen, &delta; er ISS og &gamma; er forskellen.
 ![Nat på ISS](/materiale/billeder/nat.png)
 Hvis ISS har en større vinkel end Solen gil VE punktet vil der være nat når for den beskrevne ulighed.
 
 ### Opgave
-* Vis at de skal være en absolute størrelse af gamma, hvis man skal tage højde for at Solens vinkel også kan være den største.
+* Vis at de skal være en absolute størrelse af &gamma;, hvis man skal tage højde for at Solens vinkel også kan være den største.
 
 ### Opgave
 * Skriv om i programmet MoonSunISS.py så det giver besked når det er dag på ISS.
-
-&#x3B3;
-&#947;
-&gamma;
-&alpha;
-&#767;
-&#2400;
