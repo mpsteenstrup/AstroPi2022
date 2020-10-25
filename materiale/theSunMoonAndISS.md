@@ -57,7 +57,14 @@ Tegningen viser vinklerne langs ækvator, alpha er Solen, beta er ISS og gamma e
 Hvis ISS har en større vinkel end Solen gil VE punktet vil der være nat når for den beskrevne ulighed.
 
 ### Opgave
-* vis at de skal være en absolute størrelse af gamma, hvis man skal tage højde for at Solens vinkel også kan være den største.
+* Vis at de skal være en absolute størrelse af gamma, hvis man skal tage højde for at Solens vinkel også kan være den største.
 
 ### Opgave
 * Skriv om i programmet MoonSunISS.py så det giver besked når det er dag på ISS.
+
+&#x3B3;
+&#947;
+&gamma;
+&alpha;
+&#767;
+&#2400;
