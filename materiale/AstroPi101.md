@@ -64,6 +64,7 @@ Hvis det ikke virker kan man bruge VNC viewer programmet.
 Med VNC viewer kan I få adgang til jeres Astro Pi virtuelt. I kan hente programmer her, [www.realvnc.com](https://www.realvnc.com/en/connect/download/viewer/).
 
 For at få adgang skal I helst være på samme netværk med jeres bærbare og Astro Pi computeren. I skal indtaste IP-adressem som I finder ved at klikke på VNC symbolet i højre hjørne på Astro Pi skærmen.
+
 ![VNC.png](/materiale/billeder/VNC.png)
 
 
