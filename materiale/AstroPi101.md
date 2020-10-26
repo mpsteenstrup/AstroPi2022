@@ -69,7 +69,7 @@ For at få adgang skal I helst være på samme netværk med jeres bærbare og As
 
 
 
-
+### Send data til Astro Pi
 
 I midten toppen er der en lille menu hvor man kan sende filer til Astro Pi computeren. Den er lidt hemmelig, men man kan godt finde den.
 

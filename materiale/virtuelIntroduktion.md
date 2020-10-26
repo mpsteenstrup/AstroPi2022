@@ -60,19 +60,23 @@ sense = SenseHat()
 
 
 start_time = datetime.datetime.now()
-now_time = datetime.datetime.now()
-duration = datetime.timedelta(seconds=20)
+duration = 20
+seconds = 0
 
 with open ("test.csv", "w") as file:
-    file.write("time , Temperature , pressure \n")
+    file.write("time , Temperature , pressure, luftfugtighed \n")
 
-while now_time < start_time + duration:
+while seconds < duration:
     t = sense.get_temperature()
     p = sense.get_pressure()
+    h = sense.get_humidity()
+
     now_time= datetime.datetime.now()
+    seconds = (now_time-start_time).total_seconds()
+    print(seconds)
 
     with open ("test.csv", "a") as file:
-        file.write("%s, %s, %s  \n" % (now_time, t,p))
+        file.write("%s, %s, %s, %s  \n" % (now_time, t,p,h))
     sleep(1)
 ```
 Programmet gemmer filen test.csv med overskrifterne time, Temperature, pressure. Variablene bliver aflæst i et loop på 20 sekunder og skrives på hver ny linje i linje 20. \n giver ny linje.
