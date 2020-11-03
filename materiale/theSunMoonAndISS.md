@@ -7,9 +7,11 @@ I sfæriske koordinater er det givet ved.
 * Vinklen fra ækvator, Declination (Dec), med +&pi;/2 ved nordpolen og -&pi;/2 ved sydpolen, regnet i radianer.
 * Vinkel langs ækvator fra højre om eller *right ascension* (Ra), fra Vernal Equinox punktet.
 
-*Veral Equinox* punkt (VE) er der hvor Ækvator skærer Ekliptika ved forårsjævndøgn. Altså det punkt som peger mod Solen lige over Ækvator ved forårsjævndøgn.
+*Vernal Equinox* punkt (VE) er der hvor Ækvator skærer Ekliptika ved forårsjævndøgn. Altså det punkt som peger mod Solen lige over Ækvator ved forårsjævndøgn.
 
 ![Ækvatorial koordinatsystem](/materiale/billeder/ECS.png)
+
+![Vernal equinox](/materiale/billeder/Heliocentric_rectangular_ecliptic.png)
 
 Det Ækvatoriale koordinatsystem giver ikke afstanden til himmellegemerne, men positionen, som set indefra en stjerneglobus.
 
