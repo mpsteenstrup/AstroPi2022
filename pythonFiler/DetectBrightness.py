@@ -26,7 +26,7 @@ for frame in camera.capture_continuous(rawCapture, format="bgr", use_video_port=
     image = frame.array
     # laver det om til grayscale
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-    beregner gennemsnit
+    # beregner gennemsnit
     pixAverage = np.average(gray)
     print(pixAverage)
     time.sleep(0.2)
