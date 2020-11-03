@@ -8,8 +8,10 @@ I sfæriske koordinater er det givet ved.
 * Vinkel langs ækvator fra højre om eller *right ascension* (Ra), fra Vernal Equinox punktet.
 
 *Vernal Equinox* punkt (VE) er der hvor Ækvator skærer Ekliptika ved forårsjævndøgn. Altså det punkt som peger mod Solen lige over Ækvator ved forårsjævndøgn.
+<p float="left">
+  <img src="/materiale/billeder/ECS.png" width="250"> <img src="/materiale/billeder/Heliocentric_rectangular_ecliptic.png" width="250">
+</p>
 
-<img src="/materiale/billeder/ECS.png" width="250"> <img src="/materiale/billeder/Heliocentric_rectangular_ecliptic.png" width="250">
 
 Det Ækvatoriale koordinatsystem giver ikke afstanden til himmellegemerne, men positionen, som set indefra en stjerneglobus.
 
