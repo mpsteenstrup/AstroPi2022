@@ -27,12 +27,13 @@ Næsten sammen procedure
 connecting->ssh->kopier relevant linje ind i terminal
 ```
 ### scp filoverførsel
+Brug SSH interfacet.
 
 Overførsel fra RPI til computer.
 ```
 scp -P 30196 /Users/mpsteenstrup/temp/noter.txt newuser@proxy55.rt3.io:/home/newuser/temp/
 ```
-Koden overfører filen ```test.jpg``` fra biblioteket ```/home/newuser/temp/``` til biblioteket ```/Users/mpsteenstrup/```.
+Koden overfører filen ```test.jpg``` fra biblioteket ```/home/newuser/temp/``` til biblioteket ```/Users/mpsteenstrup/```. 
 
 Overgørsel fra computer til RPI
 ```
