@@ -7,10 +7,10 @@ Hvis I vil få adgang til jeres egen Astro Pi kan I følge denne vejledning.
 [remote.it opsætning](https://magpi.raspberrypi.org/articles/remote-access-your-raspberry-pi-securely). Det behøves ikke hvis skolen har en Astro Pi som I kan få adgang til.
 
 ### remote it konto
-I skal have en konto på [remote.it](remote.it).
-
-
-
+I skal have en konto på [remote.it](remote.it). I contacts vælg Create Contacts og
+* Group name: astropi2020
+* Email:      mpsteenstrup@gmail.com
+Nu kan jeg give adgang til en Astro Pi jeg har liggende.
 
 ### Terminal eller Command Prompt
 Terminalen er et interface hvor man kan skrive kommandoer til computeren. Hos Linux og Mac computere hedder det en terminal, mens det i Windows hedder en kommando prompt eller Command Prompt.
