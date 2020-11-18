@@ -1,11 +1,6 @@
 # Astro Pi, forløb i informatik
 oversigt over de afsnit vi har været igennem.
 
-Hvis man gerne vil have <img src="http://latex.codecogs.com/svg.latex?
-\pi \cdot sin(\theta) \cdot t= 3"/> så gør man det sådan.
-
-<img src="http://latex.codecogs.com/svg.latex?\inline&space;sin(\theta)\cdot&space;t&space;=&space;4" title="http://latex.codecogs.com/svg.latex?\inline sin(\theta)\cdot t = 4" />
-
 
 * [Virtuel introduktion.](/materiale/virtuelIntroduktion.md)
 * [Idegenerering.](/materiale/Idegenerering.md)
