@@ -29,6 +29,7 @@ Vi skal bruge protokollen SSH til at få adgang til vores Astro Pi. Jeres remote
 connecting->ssh->kopier relevant linje ind i terminal
 ```
 ![ssh](/materiale/billeder/ssh.png)
+
 Skriv ```astropi2020_1``` i stedet for ```LOGIN ```.
 Password får I.
 
