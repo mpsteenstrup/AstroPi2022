@@ -56,6 +56,9 @@ scp -P 30196 /Users/mpsteenstrup/temp/noter.txt newuser@proxy55.rt3.io:/home/new
 ```
 Koden overfører filen ```noter.txt``` fra folderen temp på computeren ```/Users/mpsteenstrup/temp/``` til folderen ```/home/newuser/temp/``` op RPI.
 
+scp -P 30180 astropi2020_1@proxy55.rt3.io:/home/astropi2020_1/temp/* /Users/mpsteenstrup/temp/
+
+
 
 #### Overførsel fra RPI til computer.
 ```

@@ -5,6 +5,8 @@ Procedure
 connecting->vnc->kopier nederste kode (proxy51.rt3.io:33517)->paste ind i realVNC.
 ```
 
+### micro en editor
+Editor til terminal med "moderne" arbejdsgange.
 
 ### oprette ny bruger og give adgang på RPI
 * skift bruger, ```su - newuser```.
