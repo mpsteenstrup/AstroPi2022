@@ -12,7 +12,7 @@ Editor til terminal med "moderne" arbejdsgange.
 * skift bruger, ```su - newuser```.
 * ny user add to groups, ```sudo gpasswd -a newuser input```
 * ny user remove from groups, ```sudo gpasswd -d newuser input```
-*Tilføj ny bruger, user, ```sudo useradd new_username```
+* Tilføj ny bruger, user, ```sudo adduser new_username```
 * Skift kodeord,```sudo passwd username```
 * Slet user, ```userdel -r username```
 * For at kunne bruge SenseHat og kamera skal den nye bruger have adgang til grupperne, ```video```, ```input```, ```i2c ```.

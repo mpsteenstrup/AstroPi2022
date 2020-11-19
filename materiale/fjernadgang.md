@@ -7,9 +7,10 @@ Hvis I vil få adgang til jeres egen Astro Pi kan I følge denne vejledning.
 [remote.it opsætning](https://magpi.raspberrypi.org/articles/remote-access-your-raspberry-pi-securely). Det behøves ikke hvis skolen har en Astro Pi som I kan få adgang til.
 
 ### remote it konto
-I skal have en konto på [remote.it](remote.it). I contacts vælg Create Contacts og
-* Group name: astropi2020
-* Email:      mpsteenstrup@gmail.com
+I skal have en konto på [remote.it](remote.it).
+
+Hvis I deler jeres login mail, kan jeg dele adgang til Astro Pi.
+
 Nu kan jeg give adgang til en Astro Pi jeg har liggende.
 
 ### Terminal eller Command Prompt
@@ -27,7 +28,11 @@ Vi skal bruge protokollen SSH til at få adgang til vores Astro Pi. Jeres remote
 ```
 connecting->ssh->kopier relevant linje ind i terminal
 ```
-Skriv brugernavn og Password og nu har I adgang!
+![ssh](/materiale/billeder/ssh.png)
+Skriv ```astropi2020_1``` i stedet for ```LOGIN ```.
+Password får I.
+
+nu har I adgang!
 
 ### Øvelse, Lav jeres egen mappe en fil og kør den
 I skal kunne lave mapper, flytte jer rundt i dem, lave og redigere filer og køre python kode.
