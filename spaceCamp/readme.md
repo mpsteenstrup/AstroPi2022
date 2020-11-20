@@ -9,3 +9,7 @@
 * Python filer [pythonFiler](/pythonFiler)
 
 * Trinket online editor [simpel start](https://trinket.io/library/trinkets/d49addc48b)
+
+* [Phase II guide](https://projects.raspberrypi.org/en/projects/code-for-your-astro-pi-mission-space-lab-experiment)
+* [Jitsi meet](https://jitsi.org/).
+* [Præsentation](/spaceCamp/SpaceCamp2020.pdf)
