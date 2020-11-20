@@ -6,7 +6,7 @@ sense = SenseHat()
 
 start_time = datetime.datetime.now()
 now_time = datetime.datetime.now()
-duration = datetime.timedelta(seconds=20)
+duration = datetime.timedelta(seconds=30)
 
 with open ("test.csv", "w") as file:
     file.write("time , Temperature , pressure \n")
