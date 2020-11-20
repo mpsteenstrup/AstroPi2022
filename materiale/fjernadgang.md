@@ -31,6 +31,7 @@ connecting->ssh->kopier relevant linje ind i terminal
 ![ssh](/materiale/billeder/ssh.png)
 
 Skriv ```astropi2020_1``` i stedet for ```LOGIN ```.
+
 Password får I.
 
 nu har I adgang!
