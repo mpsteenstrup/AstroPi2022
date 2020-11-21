@@ -13,3 +13,11 @@
 * [Phase II guide](https://projects.raspberrypi.org/en/projects/code-for-your-astro-pi-mission-space-lab-experiment)
 * [Jitsi meet](https://jitsi.org/).
 * [Præsentation](/spaceCamp/SpaceCamp2020.pdf)
+
+## Jitsi
+* Vi har fællesrummet ```https://meet.jit.si/SpaceCamp2020 ```
+Hver af os har et rum.
+* [MO:](https://meet.jit.si/AstropiMohammad)
+* [Frederik:](https://meet.jit.si/AstropiFrederik)
+* [Rune:](https://meet.jit.si/AstroPIRune)
+* [MP:](https://meet.jit.si/astropiMP)
