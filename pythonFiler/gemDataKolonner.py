@@ -11,7 +11,7 @@ start_time = datetime.datetime.now()
 now_time = datetime.datetime.now()
 duration = datetime.timedelta(seconds=30)
 
-with open ("filename", "w") as file:
+with open (filename, "w") as file:
     file.write("time , Temperature , pressure \n")
 
 while now_time < start_time + duration:
@@ -19,6 +19,6 @@ while now_time < start_time + duration:
     p = sense.get_pressure()
     now_time= datetime.datetime.now()
 
-    with open ("filename", "a") as file:
+    with open (filename, "a") as file:
         file.write("%s, %s, %s  \n" % (now_time, t,p))
     sleep(1)

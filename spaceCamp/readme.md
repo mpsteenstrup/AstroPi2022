@@ -13,6 +13,8 @@
 * [Phase II guide](https://projects.raspberrypi.org/en/projects/code-for-your-astro-pi-mission-space-lab-experiment)
 * [Jitsi meet](https://jitsi.org/).
 * [Præsentation](/spaceCamp/SpaceCamp2020.pdf)
+* [Cheat Sheet](http://www.tecoed.co.uk/uploads/1/4/2/4/14249012/sense_hat.pdf)
+
 
 ## Jitsi
 * Vi har fællesrummet ```https://meet.jit.si/SpaceCamp2020 ```
