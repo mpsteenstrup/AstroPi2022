@@ -37,3 +37,10 @@ Hver af os har et rum.
 * [Astro Pi samlet materiale](/AstroPiMateriale.pdf)
 * [python filer, en samling af småprogrammer](/pythonFiler)
 * [Fjernadgang](/materiale/fjernadgang.md)
+
+
+##Hemmelig opgave.
+Skab et program der på Astro Pi displayet kan vise hvilket vejr det er. Programmet skal kunne køre på den Astro Pi der ligge udendørs på Rysensteen. Koden skal uploades som .py fil til
+(Link til spørgeskema.]
+
+Opgaven skal være afleveret kl 11.10
