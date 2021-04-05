@@ -16,6 +16,6 @@ while now_time < start_time + duration:
     p = sense.get_pressure()
     now_time= datetime.datetime.now()
 
-    with open ("koeleskab.csv", "a") as file:
+    with open ("test.csv", "a") as file:
         file.write("%s, %s, %s  \n" % (now_time, t,p))
     sleep(0.1)
