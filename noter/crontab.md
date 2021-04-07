@@ -1,7 +1,7 @@
 # crontab kør program på tid eller ved opstart
 Crontab er en del af styresystemet hvor man kan køre programmer på bestemte tidspunkter eller med bestemte intervaller. Det kan også starte et program ved opstart. Pas på med det, da programmet evt. kører og stopper andre processer.
 
-Følgende script er et lille Bash script som flytter til folderen ```temp``` og kører programmet ```helloworld.py``` og gemmer hvad programmet nu gør i tekstfilen ```text.txt```.
+Følgende script er et lille Bash script, ```launcher.sh``` som flytter til folderen ```temp``` og kører programmet ```helloworld.py``` og gemmer hvad programmet nu gør i tekstfilen ```text.txt```.
 ```
 #!/bin/sh
 # launcher.sh
@@ -12,6 +12,8 @@ cd home/pi/temp
 sudo python3 helloworld.py > text.txt
 cd /
 ```
+Programmet skal have lov til at køre, execute. Det gøres i terminalen med kommandoen ```chmod 777 launcher.sh```.
+
 Python programmet ```helloworld.py```er meget simpelt,
 ```
 print('hej med dig verden')
