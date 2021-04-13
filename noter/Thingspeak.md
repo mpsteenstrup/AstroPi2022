@@ -1,5 +1,9 @@
 # Thingspeak
-Data med temperatur og luftfugtighed Thingspeak [https://thingspeak.com/channels/1350495](https://thingspeak.com/channels/1350495).
+Data med temperatur og luftfugtighed Thingspeak [https://thingspeak.com/channels/1350495](https://thingspeak.com/channels/1350495). Sensoren er en DHT11 som har en opløsning på 1 grad og 1% luftfugtighed.
+
+Programmet er sat op men ```crontab``` til at tage målinger hvert minut. 
+
+
 Programmet som kører på vores RPI ```humTempThingspeak.py```
 
 ```
