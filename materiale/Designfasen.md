@@ -1,4 +1,4 @@
-# Idegenerering
+# Designfasen
 
 ## Mål
 
