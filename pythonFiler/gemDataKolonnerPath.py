@@ -1,17 +1,16 @@
 import datetime
+from pathlib import Path
 from time import sleep
-import os
 from sense_hat import SenseHat
 sense = SenseHat()
 
-dir_path = os.path.dirname(os.path.realpath(__file__))
-filename = dir_path + '/test.csv'
-
 start_time = datetime.datetime.now()
 now_time = datetime.datetime.now()
-duration = datetime.timedelta(seconds=30)
+duration = datetime.timedelta(seconds=180)
 
-with open (filename, "w") as file:
+dir_path = Path(__file__).parent.resolve()
+print(dir_path)
+with open (str(dir_path)+"/test_path.csv", "w") as file:
     file.write("time , temperature , pressure \n")
 
 while now_time < start_time + duration:
@@ -19,6 +18,6 @@ while now_time < start_time + duration:
     p = sense.get_pressure()
     now_time= datetime.datetime.now()
 
-    with open (filename, "a") as file:
+    with open (str(dir_path)+"/test_path.csv", "a") as file:
         file.write("%s, %s, %s  \n" % (now_time, t,p))
-    sleep(1)
+    sleep(0.1)
