@@ -32,11 +32,12 @@ while(True):
         print( 'no change' )
         change = False
     # show it
-    cv2.imshow('Type "q" to close',np.absolute(frame-frame0))
+    cv2.imshow('Type "q" to close',np.absolute(frame-frame0+100))
 
     # exit if so-commanded
     key = cv2.waitKey(1) & 0xFF
     if key == ord("q"):
+        cv2.destroyAllWindows()
         break
 
 # When everything done, release the imgture

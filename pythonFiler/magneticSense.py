@@ -6,12 +6,12 @@ sense = SenseHat()
 
 start_time = datetime.datetime.now()
 now_time = datetime.datetime.now()
-duration = datetime.timedelta(seconds=180)
+duration = datetime.timedelta(seconds=60*60*24)
 
 dir_path = Path(__file__).parent.resolve()
 print(dir_path)
 with open (str(dir_path)+"/magneticSense.csv", "w") as file:
-    file.write("x, y, z \n")
+    file.write("time, x, y, z \n")
 
 while now_time < start_time + duration:
 
@@ -25,5 +25,8 @@ while now_time < start_time + duration:
     now_time= datetime.datetime.now()
 
     with open (str(dir_path)+"/magneticSense.csv", "a") as file:
-        file.write("%s, %s, %s  \n" % (x, y,z))
-    sleep(1)
+        file.write("%s, %s, %s, %s  \n" % (now_time, x, y, z))
+    sense.show_message('running')
+    print('running: ' + str(now_time))
+    sleep(10)
+sense.clear()
