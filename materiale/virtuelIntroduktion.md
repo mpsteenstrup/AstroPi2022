@@ -13,6 +13,7 @@ Den simpleste start er her:
 
 Som altid skal man få programmet til at skrive "Hello World", så er man i gang.
 [helloWorld.py](https://trinket.io/library/trinkets/72da39de3f)
+
 Øvelse
 * Kør programmet.
 * Få det til at sige noget andet.
