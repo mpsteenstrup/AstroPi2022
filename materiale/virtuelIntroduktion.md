@@ -10,6 +10,13 @@ Her er links til et hurtigt oversigtsdokument, cheat Sheet, og sensehat dokument
 Den simpleste start er her:
 [https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat)
 
+
+Som altid skal man få programmet til at skrive "Hello World", så er man i gang.
+[helloWorld.py](https://trinket.io/library/trinkets/72da39de3f)
+Øvelse
+* Kør programmet.
+* Få det til at sige noget andet.
+
 Følgende afsnit giver en god indføring. Der er flere eksempler end man har tid og lyst til, men så må man udvælge.
 
 ### Mål
