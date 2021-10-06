@@ -15,7 +15,7 @@ oversigt over de afsnit vi har været igennem.
 
 
 ## Projektbeskrivelse
-ESA har placeret to RaspberryPi microcomputere om bord på den internationale rumstation ISS. Computerne er udstyret med sensorer og to makeraer, et som peget ind i rumstationen og et som peger mod Jorden. Det er muligt for elever i europæiske lande at foretage videnskabelige eksperimenter ved at programmere computerne. Hvert eksperiment kører 3 timer, hvor ISS kommer to gange rundt om Jorden. Projektet kræver både forståelse for de sensorer der er til rådighed, iderigdom i forhold til at udtænkte nye projekter og programmeringsskills til at udføre det.
+ESA har placeret to RaspberryPi microcomputere om bord på den internationale rumstation ISS. Computerne er udstyret med sensorer og to makeraer, et som peger ind i rumstationen og et som peger mod Jorden. Det er muligt for elever i europæiske lande at foretage videnskabelige eksperimenter ved at programmere computerne. Hvert eksperiment kører 3 timer, hvor ISS kommer to gange rundt om Jorden. Projektet kræver både forståelse for de sensorer der er til rådighed, iderigdom i forhold til at udtænkte nye projekter og programmeringsskills til at udføre det.
 
 I skal udviklen et projekt til deltagelse i ESAs Mission Space Lab konkurrence.
 
