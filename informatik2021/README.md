@@ -13,9 +13,13 @@ oversigt over de afsnit vi har været igennem.
 * [Fjernadgang](/materiale/fjernadgang.md)
 
 
+## introduktion
+
+[Astro Pi, Mission Space Lab](https://astro-pi.org/mission-space-lab/)
+
+ESA har placeret to RaspberryPi microcomputere om bord på den internationale rumstation ISS. Computerne er udstyret med sensorer og to makeraer, et som peger ind i rumstationen og et som peger mod Jorden. Det er muligt for elever i europæiske lande at foretage videnskabelige eksperimenter ved at programmere computerne. Hvert eksperiment kører 3 timer, hvor ISS kommer to gange rundt om Jorden. Projektet kræver både forståelse for de sensorer der er til rådighed, iderigdom i forhold til at udtænkte nye projekter og programmeringsskills til at udføre det.
 
 ## Projektbeskrivelse
-ESA har placeret to RaspberryPi microcomputere om bord på den internationale rumstation ISS. Computerne er udstyret med sensorer og to makeraer, et som peger ind i rumstationen og et som peger mod Jorden. Det er muligt for elever i europæiske lande at foretage videnskabelige eksperimenter ved at programmere computerne. Hvert eksperiment kører 3 timer, hvor ISS kommer to gange rundt om Jorden. Projektet kræver både forståelse for de sensorer der er til rådighed, iderigdom i forhold til at udtænkte nye projekter og programmeringsskills til at udføre det.
 
 I skal udviklen et projekt til deltagelse i ESAs Mission Space Lab konkurrence.
 
