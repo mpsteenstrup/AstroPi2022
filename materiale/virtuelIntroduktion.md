@@ -115,8 +115,7 @@ while i < 20:
 * Beskriv i ord hvad de forskellige linjer gør.
 * Lav om i koden så ```i = i + 2``` og beskriv hvad der sker.
 
-Tiden bliver styret af biblioteket datetime. Vi kan finde antallet af sekunder siden starten ved at beregne forskelle ```interval = now_time - start_time```.
-Hvis vi vil have det i sekunder kan vi bruge ```interval.total_seconds()```.
+Tiden bliver styret af biblioteket datetime. Vi kan finde antallet af sekunder siden starten ved at beregne forskelle ```seconds = (now_time - start_time).total_seconds()```.
 
 ### Opgave
 * Lav om i filen, [gemDataKolonner.py](/pythonFiler/gemDataKolonner.py),  så det er tiden som er gået i sekunder vi gemmer.
