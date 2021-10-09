@@ -11,7 +11,7 @@ Teams that choose to investigate ‘Life on Earth’ will use the Astro Pi compu
 
 ### Kend dit udstyr
 Det er vigtigt at kende sit udstyr. Her er en video med den nye Astro Pi.
-[!Nyt udstyr på Astro Pi]({https://youtu.be/uCg6DZ5YRLc} "video")
+[!Nyt udstyr på Astro Pi]{https://youtu.be/uCg6DZ5YRLc}
 
 
 ### Eksperimentel ide checkliste
