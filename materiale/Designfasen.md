@@ -9,6 +9,10 @@ Teams that choose to investigate ‘Life in space’ will use the Astro Pi compu
 ## THEME B - LIFE ON EARTH
 Teams that choose to investigate ‘Life on Earth’ will use the Astro Pi computer called Izzy, including its sensors and its near-infrared camera facing out of an ISS window towards Earth, to investigate life on the planet’s surface.
 
+### Kend dit udstyr
+Det er vigtigt at kende sit udstyr. Her er en video med den nye Astro Pi.
+[!Nyt udstyr på Astro Pi]({https://youtu.be/uCg6DZ5YRLc} "video")
+
 
 ### Eksperimentel ide checkliste
 * Your experiment can’t rely on astronaut interaction. We can’t be sure when an astronaut will be around the Astro Pis, and they have their own working schedule!
