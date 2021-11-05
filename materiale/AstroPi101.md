@@ -6,7 +6,7 @@ Pas på med at have for mange programmer åbne på samme tid, det er en microcom
 
 ![TonnyEditoren.png](/materiale/billeder/TonnyEditoren.png)
 
-### Opgave
+### Øvelse
 * Åben Thonny og skriv ```print('Astro Pi')```
 * Gem programmet som ```printAstroPi.py```, og lav en mappe som I kan arbejde i. , undgå som altid æøå, mellemrum og mærkelige tegn.
 * Find ```printAstroPi.py```, og kør det, .
