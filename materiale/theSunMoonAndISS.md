@@ -1,4 +1,7 @@
 # Placering af Sol, Måne og ISS
+ESA har i 2021 valgt at udskifte ```ephem``` med ```skyfield```. Det nedenstående er til den gamle ```ephem```. Guide til den nye metode ligger her, [Finding the location of the ISS](https://projects.raspberrypi.org/en/projects/code-for-your-astro-pi-mission-space-lab-experiment/4).
+
+
 ISS bevæger sig rundt om Jorden med en omløbstid på 90 minutter. Dette giver mulighed for at undersøge de store dele af Jorden ISS passerer. ISS bliver også i sin bane påvirket af Solen og Månen. Banen rundt om Jorden giver på 1,5 time både nat og dag samt passage tættere eller længere fra Månen. For at kunne undersøge det skal vi kende placeringen af himmellegemerne og ISS. Vi bruger biblioteket ```ephem``` som vi brugte til at finde placeringen af ISS over jordoverfladen med programmet [getLocation.py](/pythonFiler/getLocation.py). Her kender vi ISS paceringe med længde og breddegrader i et geocentrisk koordinatsystem, som roterer med Jorden.
 
 For at bestemme Solen og Månens placering bruger vi *Equatorial coordinate system* eller Ækvatoriale koordinatsystem. Det er også et geocentrisk koordinatsystem med centrum i Jordens centrum.

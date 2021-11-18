@@ -41,7 +41,7 @@ sense.show_message('Temperaturen er: {:0.2f}'.format(temp))
 
 ### Øvelse
 * Få jeres Astro Pi til at vise temperaturen.
-* Få den til at vise noget andet, husk [cheat sheet](http://www.tecoed.co.uk/uploads/1/4/2/4/14249012/sense_hat.pdf), 
+* Få den til at vise noget andet, husk [cheat sheet](http://www.tecoed.co.uk/uploads/1/4/2/4/14249012/sense_hat.pdf). 
 
 ## Tænd og sluk
 Vores Astro Pi kan godt lide at blive slukket rigtigt, hvilket man gør som man forventer, ingen hints. Hvis den er slukket tænder man den ved at tænde for strømmen, bum computere er nemme.

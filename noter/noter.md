@@ -1,3 +1,40 @@
+
+### static IP
+Statisk IP addresse til Informatik router.
+AstroPiRys1 192.168.1.101
+AstroPiRys2 192.168.1.102
+AstroPiRys3 192.168.1.103
+AstroPiRys4 192.168.1.104
+AstroPiRys5 192.168.1.105
+AstroPiRys6 192.168.1.106
+AstroPiRys7 192.168.1.107
+
+Sæt på UNIX for at kunne indtaste username
+
+https://www.makeuseof.com/raspberry-pi-set-static-ip/
+
+ip r | grep default
+default via 192.168.1.1 dev wlan0 proto dhcp src 192.168.1.4 metric 303
+
+hostname -I
+192.168.1.4
+
+sudo nano /etc/resolv.conf
+nameserver 192.168.1.1
+
+edit
+sudo nano /etc/dhcpcd.conf
+
+interface NETWORK
+static ip_address=STATIC_IP/24
+static routers=ROUTER_IP
+static domain_name_servers=DNS_IP
+
+interface wlan0
+static ip_address=192.168.1.107/24
+static routers=192.168.1.1
+static domain_name_servers=192.168.1.1
+
 ### Login med realVCN
 Med realVNC kan man kun logge ind som root hvilket gør at alle rettigheder til at redigere er til.
 Procedure
