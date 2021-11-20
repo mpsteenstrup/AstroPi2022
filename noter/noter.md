@@ -9,6 +9,8 @@ AstroPiRys5 192.168.1.105
 AstroPiRys6 192.168.1.106
 AstroPiRys7 192.168.1.107
 
+AstroPiRys10
+
 Sæt på UNIX for at kunne indtaste username
 
 https://www.makeuseof.com/raspberry-pi-set-static-ip/
@@ -34,6 +36,23 @@ interface wlan0
 static ip_address=192.168.1.107/24
 static routers=192.168.1.1
 static domain_name_servers=192.168.1.1
+
+
+### setup wifi
+
+Lav fil i roden, ```wpa_supplicant.conf```
+
+```
+country=DK
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+
+network={
+    ssid="NETWORK-NAME"
+    psk="NETWORK-PASSWORD"
+}
+```
+
 
 ### Login med realVCN
 Med realVNC kan man kun logge ind som root hvilket gør at alle rettigheder til at redigere er til.
