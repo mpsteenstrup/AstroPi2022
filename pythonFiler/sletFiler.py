@@ -17,7 +17,7 @@ for f in files:
                 os.remove(f)
 
 # opretter en folder ( som så kan slettes)
-os.mkdir('test')
+#os.mkdir('test')
 
 # for at fjerne en hel folder, PAS PÅ, I sletter!!!
 #files =os.listdir('test')

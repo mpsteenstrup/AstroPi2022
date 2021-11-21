@@ -1,8 +1,8 @@
-
 # getting the file based on the ending. can be used to delete alle .jpg files
-
 import os
+
 files = os.listdir('.')
+
 for f in files:
 	print(f)
 
