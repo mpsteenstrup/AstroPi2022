@@ -3,7 +3,7 @@ Vi kan bruge Github på vores Pi.
 
 * ``` git clone http:...```
 * ``` git add .; git commit -m "test"; git push origin master ```
-* git husker username og token efter denne kmmando, ``` git add .; git commit -m "test"; git push origin master ```
+* git husker username og token efter denne kmmando, ``` git config --global credential.helper store ```
 
 ### static IP
 Statisk IP addresse til Informatik router.
