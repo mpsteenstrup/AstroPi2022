@@ -19,6 +19,12 @@ oversigt over de afsnit vi har været igennem.
 
 ESA har placeret to RaspberryPi microcomputere om bord på den internationale rumstation ISS. Computerne er udstyret med sensorer og to makeraer, et som peger ind i rumstationen og et som peger mod Jorden. Det er muligt for elever i europæiske lande at foretage videnskabelige eksperimenter ved at programmere computerne. Hvert eksperiment kører 3 timer, hvor ISS kommer to gange rundt om Jorden. Projektet kræver både forståelse for de sensorer der er til rådighed, iderigdom i forhold til at udtænkte nye projekter og programmeringsskills til at udføre det.
 
+# AstroPi2021
+ESA har opdateret deres to Astro Pi på ISS. Der er kommet en ny PIR sensor til detektion af astronauter, et HQ kamera til jordobservation og machine learning modul. Styresystemet er også opdateret til det nye Rasbian Buster. Det kører også på de gamle Astro Pi og man kan hente billedet på astro.pi hjemmeside. Der er også nye pythonbiblioteker, en oversig kan findes her, [Python biblioteker på ISS](https://projects.raspberrypi.org/en/projects/code-for-your-astro-pi-mission-space-lab-experiment/2).
+
+
+
+
 ## Projektbeskrivelse
 
 I skal udviklen et projekt til deltagelse i ESAs Mission Space Lab konkurrence.
