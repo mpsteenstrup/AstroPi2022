@@ -10,7 +10,7 @@ with open('koeleskab.csv','r') as csvfile:
     for row in plots:
         x.append(int(row[0]))
         t.append(int(row[1]))
-        p.append(int(row[]2))
+        p.append(int(row[2]))
 
 plt.plot(x,t, label='Loaded from file!')
 plt.xlabel('tid')

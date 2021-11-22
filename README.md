@@ -1,3 +1,10 @@
+# AstroPi2021
+ESA har opdateret deres to Astro Pi på ISS. Der er kommet en ny PIR sensor til detektion af astronauter, et HQ kamera til jordobservation og machine learning modul. Styresystemet er også opdateret til det nye Rasbian Buster. Det kører også på de gamle Astro Pi og man kan hente billedet på astro.pi hjemmeside. Der er også nye pythonbiblioteker, en oversig kan findes her, [Python biblioteker på ISS](https://projects.raspberrypi.org/en/projects/code-for-your-astro-pi-mission-space-lab-experiment/2).
+
+
+
+
+
 # AstroPi2020
 
 Astro Pi materiale kan findes, [AstroPiMateriale.pdf](AstroPiMateriale.pdf)

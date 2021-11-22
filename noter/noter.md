@@ -1,17 +1,30 @@
+### github 
+Vi kan bruge Github på vores Pi.
+
+* ``` git clone http:...```
+* ``` git add .; git commit -m "test"; git push origin master ```
+* git husker username og token efter denne kmmando, ``` git config --global credential.helper store ```
 
 ### static IP
 Statisk IP addresse til Informatik router.
-AstroPiRys1 192.168.1.101
-AstroPiRys2 192.168.1.102
-AstroPiRys3 192.168.1.103
-AstroPiRys4 192.168.1.104
-AstroPiRys5 192.168.1.105
-AstroPiRys6 192.168.1.106
-AstroPiRys7 192.168.1.107
+*AstroPiRys1 192.168.1.101
+*AstroPiRys2 192.168.1.102
+*AstroPiRys3 192.168.1.103
+*AstroPiRys4 192.168.1.104
+*AstroPiRys5 192.168.1.105
+*AstroPiRys6 192.168.1.106
+*AstroPiRys7 192.168.1.107
+
+Nye Astro pi
+*AstroPiRys10 192.168.1.110
+*AstroPiRys11 192.168.1.111
+
 
 AstroPiRys10
 
 Sæt på UNIX for at kunne indtaste username
+
+
 
 https://www.makeuseof.com/raspberry-pi-set-static-ip/
 
@@ -77,3 +90,4 @@ Editor til terminal med "moderne" arbejdsgange.
 
 manage users and groups
 (howtogeek.com)[https://www.howtogeek.com/50787/add-a-user-to-a-group-or-second-group-on-linux/]
+

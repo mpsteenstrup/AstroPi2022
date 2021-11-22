@@ -3,6 +3,7 @@
 from __future__ import print_function
 import cv2 as cv
 import argparse
+
 max_value = 255
 max_value_H = 255
 low_H = 0
@@ -80,7 +81,7 @@ while True:
 
     cv.imshow('window_capture_name', frame)
     cv.imshow('window_detection_name', frame_threshold)
-
+#
     key = cv.waitKey(30)
     if key == ord('q') or key == 27:
         break

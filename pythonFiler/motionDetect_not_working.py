@@ -1,6 +1,6 @@
 import numpy as np
 import cv2
-
+import matplotlib.pyplot as plt
 
 count = 0
 new = False
@@ -14,7 +14,8 @@ height, width, nchannels = frame.shape
 
 gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 frame = cv2.GaussianBlur(gray, (21, 21), 0)
-
+myframe = plt.imshow(frame)
+plt.show()
 while(True):
     frame0 = frame
     ret, frame = img.read()
@@ -32,13 +33,17 @@ while(True):
         print( 'no change' )
         change = False
     # show it
-    cv2.imshow('Type "q" to close',np.absolute(frame-frame0+100))
+    frame=frame-frame0+100
+#    plt.imshow(frame)
+    myframe.set_data(frame)
+    plt.draw()
+#    cv2.imshow('Type "q" to close',np.absolute(frame-frame0+100))
 
     # exit if so-commanded
-    key = cv2.waitKey(1) & 0xFF
-    if key == ord("q"):
-        cv2.destroyAllWindows()
-        break
+#    key = cv2.waitKey(1) & 0xFF
+#    if key == ord("q"):
+#        cv2.destroyAllWindows()
+#        break
 
 # When everything done, release the imgture
 img.release()

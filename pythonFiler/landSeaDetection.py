@@ -1,5 +1,6 @@
 import numpy as np
 import cv2
+import matplotlib.pyplot as plt
 
 img = cv2.imread('../billeder/coast.jpg')
 
@@ -32,11 +33,6 @@ def compute_percentage(masked_img):
     npixel_class = sum(sum(1*single_band_img))
     return npixel_class
 
-def vis_billed(img,name):
-    cv2.namedWindow(name,cv2.WINDOW_NORMAL)
-    cv2.imshow(name,img)
-    cv2.resizeWindow(name, 600,600)
-
 def calculate_percentage(border_output,sea_output,cloud_output,ground_output):
     nborder_pixel = compute_percentage(border_output)
     nsea_pixel = compute_percentage(sea_output)
@@ -51,14 +47,19 @@ def global_classificator(img):
     cloud_output = find_cloud(img)
     ground_output = find_ground(img, border_output, sea_output, cloud_output)
 
-    vis_billed(border_output,'border')
-    vis_billed(sea_output,'sea')
-    vis_billed(cloud_output,'cloud')
-    vis_billed(ground_output,'ground')
     print('border, sea, cloud, ground')
     print(calculate_percentage(border_output,sea_output,cloud_output,ground_output))
 
+    figure, axis = plt.subplots(2, 2)
+    axis[0, 0].imshow(border_output)
+    axis[0, 0].set_title("border")
+    axis[0, 1].imshow(cloud_output)
+    axis[0, 1].set_title("cloud")
+    axis[1, 0].imshow(sea_output)
+    axis[1, 0].set_title("sea")
+    axis[1, 1].imshow(ground_output)
+    axis[1, 1].set_title("ground")
+    plt.show()
+
 global_classificator(img)
 
-cv2.waitKey(0)
-cv2.destroyAllWindows()

@@ -3,8 +3,7 @@
 from picamera.array import PiRGBArray
 from picamera import PiCamera
 from time import sleep
-import cv2
-
+import matplotlib.pyplot as plt
 
 with PiCamera() as camera:
 #	camera.resolution = (2592,1944)
@@ -14,14 +13,5 @@ with PiCamera() as camera:
 	camera.capture(rawCapture, format='bgr') # bemærk at vi gemmer som blå, grøn, rød
 	image = rawCapture.array
 
-cv2.imshow("Image", image)
-
-# viser billedet indtil tastaturet trykkes
-c = cv2.waitKey(0)
-
-# lukker vinduer
-cv2.destroyAllWindows()
-
-# hvis man trykker s så gem billed
-if (c==ord('s')):
-	cv2.imwrite('CVImage.png', image)
+plt.imshow(image)
+plt.show()
