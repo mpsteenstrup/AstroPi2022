@@ -10,7 +10,6 @@ oversigt over de afsnit vi har været igennem.
 * [Astro Pi samlet materiale](/AstroPiMateriale.pdf)
 * [Python filer, en samling af småprogrammer](/pythonFiler)
 * [Projektarbejdet](/materiale/Projektarbejdet.md)
-* [Fjernadgang](/materiale/fjernadgang.md)
 
 
 ## introduktion
