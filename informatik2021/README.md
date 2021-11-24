@@ -10,6 +10,7 @@ oversigt over de afsnit vi har været igennem.
 * [Location, ISS, Månen og solen](/materiale/theSunMoonAndISS.md)
 * [Astro Pi samlet materiale](/AstroPiMateriale.pdf)
 * [Python filer, en samling af småprogrammer](/pythonFiler)
+* [Projektarbejdet](/materiale/Projektarbejdet.md)
 * [Fjernadgang](/materiale/fjernadgang.md)
 
 

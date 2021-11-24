@@ -1,4 +1,4 @@
-### github 
+### github
 Vi kan bruge Github på vores Pi.
 
 * ``` git clone http:...```
@@ -18,9 +18,6 @@ Statisk IP addresse til Informatik router.
 Nye Astro pi
 *AstroPiRys10 192.168.1.110
 *AstroPiRys11 192.168.1.111
-
-
-AstroPiRys10
 
 Sæt på UNIX for at kunne indtaste username
 
@@ -90,4 +87,3 @@ Editor til terminal med "moderne" arbejdsgange.
 
 manage users and groups
 (howtogeek.com)[https://www.howtogeek.com/50787/add-a-user-to-a-group-or-second-group-on-linux/]
-
