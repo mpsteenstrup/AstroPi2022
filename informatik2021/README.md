@@ -7,7 +7,6 @@ oversigt over de afsnit vi har været igennem.
 * [Designfasen.](/materiale/Designfasen.md)
 * [Køleskab, et eksperiment med Astro Pi.](/materiale/Koeleskab.md)
 * [Astro Pi guidelines.](/materiale/Astro_Pi_Mission_Space_Lab_Guidelines_2020_21.pdf)
-* [Location, ISS, Månen og solen](/materiale/theSunMoonAndISS.md)
 * [Astro Pi samlet materiale](/AstroPiMateriale.pdf)
 * [Python filer, en samling af småprogrammer](/pythonFiler)
 * [Projektarbejdet](/materiale/Projektarbejdet.md)
