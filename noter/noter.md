@@ -33,13 +33,10 @@ default via 192.168.1.1 dev wlan0 proto dhcp src 192.168.1.4 metric 303
 nameserver 192.168.1.1
 
 edit
-<<<<<<< HEAD
-sudo nano /etc/dhcpcd.conf
-```
-=======
 ```sudo nano /etc/dhcpcd.conf```
 
->>>>>>> 13b6f4f6767c030f735b9a5c4868edb1aa33df70
+Generel skal der indtastes
+```
 interface NETWORK
 static ip_address=STATIC_IP/24
 static routers=ROUTER_IP
