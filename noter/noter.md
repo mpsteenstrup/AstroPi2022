@@ -21,8 +21,6 @@ Nye Astro pi
 
 Sæt på UNIX for at kunne indtaste username
 
-
-
 https://www.makeuseof.com/raspberry-pi-set-static-ip/
 
 ip r | grep default
@@ -36,17 +34,19 @@ nameserver 192.168.1.1
 
 edit
 sudo nano /etc/dhcpcd.conf
-
+```
 interface NETWORK
 static ip_address=STATIC_IP/24
 static routers=ROUTER_IP
 static domain_name_servers=DNS_IP
-
+```
+For min router
+```
 interface wlan0
 static ip_address=192.168.1.107/24
 static routers=192.168.1.1
 static domain_name_servers=192.168.1.1
-
+```
 
 ### setup wifi
 
