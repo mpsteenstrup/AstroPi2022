@@ -42,7 +42,7 @@ static ip_address=STATIC_IP/24
 static routers=ROUTER_IP
 static domain_name_servers=DNS_IP
 ```
-For min router
+For min router for Pi nr 7
 ```
 interface wlan0
 static ip_address=192.168.1.107/24
