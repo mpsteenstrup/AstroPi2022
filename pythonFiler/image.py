@@ -4,14 +4,16 @@ from picamera.array import PiRGBArray
 from picamera import PiCamera
 from time import sleep
 import matplotlib.pyplot as plt
+import numpy as np
 
 with PiCamera() as camera:
-#	camera.resolution = (2592,1944)
 	rawCapture = PiRGBArray(camera)
 	# giver kameraet tid til at indstille sig
 	sleep(1)
-	camera.capture(rawCapture, format='bgr') # bemærk at vi gemmer som blå, grøn, rød
+	camera.capture(rawCapture, format='rgb') 
 	image = rawCapture.array
+	image = image[:,:,0]
 
-plt.imshow(image)
+print(np.mean(image))
+plt.imshow(image, cmap='gray')
 plt.show()
