@@ -23,11 +23,12 @@ Sæt på UNIX for at kunne indtaste username
 
 https://www.makeuseof.com/raspberry-pi-set-static-ip/
 
-nuværende ip addresse: ```ip r | grep default```
+nuværende ip addresse: ```hostname -I```
+192.168.1.4
+
+static router: ```ip r | grep default```
 default via 192.168.1.1 dev wlan0 proto dhcp src 192.168.1.4 metric 303
 
-static router: ```hostname -I```
-192.168.1.4
 
 static domain_name_servers: ```sudo nano /etc/resolv.conf```
 nameserver 192.168.1.1
