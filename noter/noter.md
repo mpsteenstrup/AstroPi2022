@@ -29,7 +29,6 @@ nuværende ip addresse: ```hostname -I```
 static router: ```ip r | grep default```
 default via 192.168.1.1 dev wlan0 proto dhcp src 192.168.1.4 metric 303
 
-
 static domain_name_servers: ```sudo nano /etc/resolv.conf```
 nameserver 192.168.1.1
 
