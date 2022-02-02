@@ -15,7 +15,7 @@ height, width, nchannels = frame.shape
 gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 frame = cv2.GaussianBlur(gray, (21, 21), 0)
 myframe = plt.imshow(frame)
-plt.show()
+plt.show(block=None)
 while(True):
     frame0 = frame
     ret, frame = img.read()
