@@ -1,5 +1,9 @@
 # Space Camp 2022
+Space Camp har til formål at hjælpe jer med at udvikle jeres programmer, så I kan få dem op på den internationale rumstation ISS.
 
+Underviserne vil være Rune Klarskov og Mads Peter Steenstrup. 
+
+## Materiale
 * Samlet materiale i g-docs [AstroPiMateriale - docs](https://docs.google.com/document/d/1TvWkbjJ-wwO4O2CT9xOwN_tYdI0_nd-l7zSaXgmFQ2A/edit?usp=sharing).
 
 * Informatik forløb Rysensteen Gynmasium, [informatik2021](/informatik2021)
