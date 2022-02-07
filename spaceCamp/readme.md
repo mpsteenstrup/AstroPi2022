@@ -22,7 +22,7 @@ Vi bruger Zoom og I kan enten hente det til jeres computer eller kører det i en
 
 Join Zoom Meeting [https://rysensteen-dk.zoom.us/j/6557352531](https://rysensteen-dk.zoom.us/j/6557352531)
 
-kode: MajorTom
+kode: Få den af din lærer.
 
 ## Deling af materiale
 
