@@ -1,9 +1,6 @@
 import os
 
-import pathlib
-
-path = pathlib.Path(__file__).parent.absolute()
-
+path = os.getcwd()
 for i in os.listdir(path):
     name = i.split(' ')
     if ' ' in i:
