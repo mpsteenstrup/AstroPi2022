@@ -24,24 +24,8 @@ Join Zoom Meeting [https://rysensteen-dk.zoom.us/j/6557352531](https://rysenstee
 
 kode: MajorTom
 
+## Deling af materiale
 
-
-## Oversigt over Rysensteen forløbet
-* [Virtuel introduktion.](/materiale/virtuelIntroduktion.md)
-* [Idegenerering.](/materiale/Idegenerering.md)
-* [Astro Pi 101, introduktion til Astro Pi.](/materiale/AstroPi101.md)
-* [Designfasen.](/materiale/Designfasen.md)
-* [Køleskab, et eksperiment med Astro Pi.](/materiale/Koeleskab.md)
-* [Astro Pi guidelines.](/materiale/Astro_Pi_Mission_Space_Lab_Guidelines_2020_21.pdf)
-* [Space Camp invitation.](/mateiale/VirtuelSpaceCampInvitation.pdf)
-* [Location, ISS, Månen og solen](/materiale/theSunMoonAndISS.md)
-* [Astro Pi samlet materiale](/AstroPiMateriale.pdf)
-* [python filer, en samling af småprogrammer](/pythonFiler)
-* [Fjernadgang](/materiale/fjernadgang.md)
-
-
-##Hemmelig opgave.
-Skab et program der på Astro Pi displayet kan vise hvilket vejr det er. Programmet skal kunne køre på den Astro Pi der ligge udendørs på Rysensteen. Koden skal uploades som .py fil til
-(Link til spørgeskema.]
-
-Opgaven skal være afleveret kl 11.10
+Vi bruger github til at dele pythonfiler. Filerne kommer til at være her,
+* [spaceCamp/spaceCampPythonFiler](https://github.com/mpsteenstrup/AstroPi2021/tree/master/spaceCamp/spaceCampPythonFiler)
+* [Brug spørgeskemaet til at uploade jeres python filer](https://forms.gle/9WgMZDnVmxzB2maw8)
