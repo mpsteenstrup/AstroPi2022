@@ -29,3 +29,7 @@ kode: Få den af din lærer.
 Vi bruger github til at dele pythonfiler. Filerne kommer til at være her,
 * [spaceCamp/spaceCampPythonFiler](https://github.com/mpsteenstrup/AstroPi2021/tree/master/spaceCamp/spaceCampPythonFiler)
 * [Brug spørgeskemaet til at uploade jeres python filer](https://forms.gle/9WgMZDnVmxzB2maw8)
+
+## Nyt kamera på ISS
+* [Flickr billeder IR](https://www.flickr.com/photos/raspberrypi/albums/72177720296247792)
+* [Flickr billeder normal](https://www.flickr.com/photos/raspberrypi/albums/72177720296248482/with/51846468020/)
