@@ -1,5 +1,8 @@
 
 
+ny bruger
+sudo adduser newuser
+
 skift bruger
 su newuser
 
