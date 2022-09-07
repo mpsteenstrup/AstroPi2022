@@ -1,6 +1,11 @@
 ### github
 Vi kan bruge Github på vores Pi.
 
+Klon python biblioteket
+```git clone https://github.com/mpsteenstrup/AstroPiPythonFiler.git```
+
+
+
 * ``` git clone http:...```
 * ``` git add .; git commit -m "test"; git push origin master ```
 * git husker username og token efter denne kmmando, ``` git config --global credential.helper store ```
@@ -37,20 +42,20 @@ edit
 
 Generel skal der indtastes
 ```
-interface NETWORK
-static ip_address=STATIC_IP/24
+interface wlan0
+static ip_address=STATIC_IP/20
 static routers=ROUTER_IP
 static domain_name_servers=DNS_IP
 ```
 For min router for Pi nr 7
 ```
 interface wlan0
-static ip_address=192.168.1.107/24
+static ip_address=192.168.1.107/20
 static routers=192.168.1.1
 static domain_name_servers=192.168.1.1
 ```
 
-informatik2 reouter ip_addresse: ```192.168.1.171```
+informatik2 reouter ip_addresse: ```192.168.1.107```
 
 ### setup wifi
 
