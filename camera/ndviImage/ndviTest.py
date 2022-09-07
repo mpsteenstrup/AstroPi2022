@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 from fastiecm import fastiecm
 
-original = cv2.imread('images/cslab3ogel_Files_RawData_raw_image_116.jpeg') # load image
+original = cv2.imread('park.png') # load image
 
 def display(image, image_name):
     image = np.array(image, dtype=float)/float(255) #convert to an array
@@ -14,13 +14,13 @@ def display(image, image_name):
     cv2.imshow(image_name, image) # display image
     cv2.waitKey(0) # wait for key press
     cv2.destroyAllWindows()
-    
+
 def contrast_stretch(im):
     im_min = np.percentile(im, 5)
     im_max = np.percentile(im, 95)
-    
+
     out_min = 0.0
-    out_max = 255.0    
+    out_max = 255.0
     out = im - im_min
     out *= (out_max-out_min)/(im_max-im_min)
     out += im_min
@@ -49,4 +49,3 @@ mapped')
 
 #cv2.imwrite('color_mapped_image.png', color_mapped_image)
 #cv2.imwrite('original.png', original)
-

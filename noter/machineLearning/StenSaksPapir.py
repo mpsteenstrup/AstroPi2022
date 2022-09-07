@@ -6,12 +6,15 @@ from pycoral.utils.edgetpu import make_interpreter
 from pycoral.adapters import common
 from pycoral.adapters import classify
 
+from sense_hat import SenseHat
+sense = SenseHat()
+
 
 # the TFLite converted to be used with edgetpu
-modelPath = '<PATH_TO_MODEL>'
+modelPath = 'model_edgetpu.tflite'
 
 # The path to labels.txt that was downloaded with your model
-labelPath = '<PATH_TO_LABELS>'
+labelPath = 'labels.txt'
 
 # This function takes in a TFLite Interptere and Image, and returns classifications
 def classifyImage(interpreter, image):
@@ -39,8 +42,18 @@ def main():
         # Classify and display image
         results = classifyImage(interpreter, frame)
         cv2.imshow('frame', frame)
-        print(f'Label: {labels[results[0].id]}, Score: {results[0].score}')
+ #       print(f'Label: {labels[results[0].id]}, Score: {results[0].score}')
+        if labels[results[0].id] == 'saks':
+            print('saks')
+            sense.show_letter('S')
+        if labels[results[0].id] == 'sten':
+            print('sten')
+            sense.show_letter('R')
+        if labels[results[0].id] == 'papir':
+            print('papir')
+            sense.show_letter('P')
         if cv2.waitKey(1) & 0xFF == ord('q'):
+            sense.clear()
             break
 
     cap.release()
