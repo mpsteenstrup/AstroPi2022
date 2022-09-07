@@ -23,6 +23,11 @@ Statisk IP addresse til Informatik router.
 Nye Astro pi
 * AstroPiRys10 192.168.1.110
 * AstroPiRys11 192.168.1.111
+* AstroPiRys11 192.168.1.112
+* AstroPiRys11 192.168.1.113
+* AstroPiRys11 192.168.1.114
+* AstroPiRys11 192.168.1.115
+* AstroPiRys11 192.168.1.116
 
 Sæt på UNIX for at kunne indtaste username
 
@@ -43,14 +48,14 @@ edit
 Generel skal der indtastes
 ```
 interface wlan0
-static ip_address=STATIC_IP/20
+static ip_address=STATIC_IP/24
 static routers=ROUTER_IP
 static domain_name_servers=DNS_IP
 ```
 For min router for Pi nr 7
 ```
 interface wlan0
-static ip_address=192.168.1.107/20
+static ip_address=192.168.1.107/24
 static routers=192.168.1.1
 static domain_name_servers=192.168.1.1
 ```
