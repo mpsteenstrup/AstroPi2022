@@ -1,17 +1,39 @@
-### github
-Vi kan bruge Github på vores Pi.
+### opsætning af Astro-Pi til VNC adgang
+Opsætningen af en ny Astro-Pi gøres lettest ved at koble den til en HDMI skærm, tastatur og mus.
 
-Klon python biblioteket
-```git clone https://github.com/mpsteenstrup/AstroPiPythonFiler.git```
-
+Det anbefales at købe en wifi-router hvor både elever og RPI kan blive koblet på. Det er ofte problematisk med skolenetværk med sikkerhedprotokoller osv. Køb ikke en for billig router da den skal kunne klarer både elevernes computere og Astro-Pi.
 
 
-* ``` git clone http:...```
-* ``` git add .; git commit -m "test"; git push origin master ```
-* git husker username og token efter denne kmmando, ``` git config --global credential.helper store ```
+### på Astro-Pi
+* Skift kodeord under præferencer.
+* I højre logges på wifi.
+* Ved siden af styk på VNC symbolet og vælg ```options->Security->Authentication``` vælg ```UNIX password```.
+* Vælg ```Troubelshooting``` vælg ```Enable direct capture```, så kan i se preview fra kameraet over VNC.
+
+### Fast IP-addresse
+For at få adgang til jeres Astro-Pi skal I kende IP-adressen. I kan se den ved at trykke på VNC. Hvis i ikke har nogen skærm er det rart med en fast IP-adresse.
+
+* Find router adresse (her 192.168.1.1): ```ip r | grep default``` hvilket for mig giver ``` default via 192.168.1.1 dev wlan0 proto dhcp src 192.168.1.4 metric 303 ```
+* Updater filen ```dhcpcd.conf```fil ved at skrive ```sudo nano /etc/dhcpcd.conf``` i terminalen.
+* Generel skal der indtastes
+```
+interface wlan0
+static ip_address=STATIC_IP/24
+static routers=ROUTER_IP
+static domain_name_servers=DNS_IP
+```
+* For min router for Pi nr 7
+```
+interface wlan0
+static ip_address=192.168.1.107/24
+static routers=192.168.1.1
+static domain_name_servers=192.168.1.1
+```
+* Gem filen med ```ctrl o```.
+* Reboot og tjek om IP-adressen er den rigtige.
 
 ### static IP
-Statisk IP addresse til Informatik router.
+Statisk IP addresse til informatik2022 router.
 * AstroPiRys1 192.168.1.101
 * AstroPiRys2 192.168.1.102
 * AstroPiRys3 192.168.1.103
@@ -29,41 +51,21 @@ Nye Astro pi
 * AstroPiRys11 192.168.1.115
 * AstroPiRys11 192.168.1.116
 
-Sæt på UNIX for at kunne indtaste username
 
-https://www.makeuseof.com/raspberry-pi-set-static-ip/
+### github
+Vi kan bruge Github på vores Pi. Det kan bruges til at dele filer og virker godt til at overføre filer til alle elever.
 
-nuværende ip addresse: ```hostname -I```
-192.168.1.4
+Man kan klone et girhub-bibliotek. Dette har de fleste af de python filer der skal bruges til lærerkurset i Astro-Pi.
+```git clone https://github.com/mpsteenstrup/AstroPiPythonFiler.git```
 
-static router: ```ip r | grep default```
-default via 192.168.1.1 dev wlan0 proto dhcp src 192.168.1.4 metric 303
+Hvis man skal bruge det selv kan man oprette sig på github og lave en mapps som man synkroniserer.
+* ``` git clone http:...```
+* ``` git add .; git commit -m "test"; git push origin master ```
+* git husker username og token efter denne kmmando, ``` git config --global credential.helper store ```
 
-static domain_name_servers: ```sudo nano /etc/resolv.conf```
-nameserver 192.168.1.1
-
-edit
-```sudo nano /etc/dhcpcd.conf```
-
-Generel skal der indtastes
-```
-interface wlan0
-static ip_address=STATIC_IP/24
-static routers=ROUTER_IP
-static domain_name_servers=DNS_IP
-```
-For min router for Pi nr 7
-```
-interface wlan0
-static ip_address=192.168.1.107/24
-static routers=192.168.1.1
-static domain_name_servers=192.168.1.1
-```
-
-informatik2 reouter ip_addresse: ```192.168.1.107```
 
 ### setup wifi
-
+Hvis Man skal sætte
 Lav fil i roden, ```wpa_supplicant.conf```
 
 ```
