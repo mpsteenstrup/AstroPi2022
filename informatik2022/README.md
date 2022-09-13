@@ -37,7 +37,7 @@ Projektbeskrivelsen skal indeholde følgende elementer.
 * En vedhæftet fil med jeres programkode.
 * Vurdering af om jeres kode lever op til ESAs kravspecifikationer.
 * Et Rutediagram/Flowchart af jeres programkode.
- 
+
 En del kan klippes direkte fra jeres ansøgning til ESA og må gerne være på engelsk.
 
 Projektbeskrivelsen skal indføres i jeres portfolie. Jeres portfolier må gerne være ens, hvis I øverst skriver hvem I har arbejdet sammen med.
@@ -47,4 +47,3 @@ Projektbeskrivelsen skal indføres i jeres portfolie. Jeres portfolier må gerne
 Gennem forløbet vil I opnå basale porgrammeringskompetencer i python. I vil også arbejde med dataopsamling med Raspberry Pi. Liste over kompetencer.
 * [Basal python kodning](https://trinket.io/mpsteenstrup_9752/courses/astro-pi#/grundlaeggende/lokker-forgreninger-mm).
 * Data opsamling svarende til projektet, [Køleskab](https://github.com/mpsteenstrup/AstroPi2021/blob/master/materiale/Koeleskab.md).
-*
