@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 import matplotlib.pyplot as plt
 
-img = cv2.imread('../billeder/coast.jpg')
+img = cv2.imread('billeder/coast.jpg')
 
 def find_border(img):
     hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
@@ -62,4 +62,3 @@ def global_classificator(img):
     plt.show()
 
 global_classificator(img)
-

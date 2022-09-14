@@ -64,6 +64,21 @@ Hvis man skal bruge det selv kan man oprette sig på github og lave en mapps som
 * git husker username og token efter denne kmmando, ``` git config --global credential.helper store ```
 
 
+
+## opdatering af opencv fra headless
+ESA har valgt at insatallerer openCV som headless. Det gør at man ikke kan bruge preview osv. når man arbejder med programmet. Det er ret irriterende og kan omgøres med følgende kommandoer i terminalen,
+```
+sudo pip3 uninstall opencv-python
+sudo pip3 uninstall opencv-contrib-python
+sudo pip3 uninstall opencv-contrib-python-headless
+
+sudo pip3 install opencv-python==4.6.0.66
+sudo pip3 install opencv-contrib-python==4.6.0.66
+```
+Den nyeste version at openCV kan findes på [https://pypi.org/project/opencv-python/](https://pypi.org/project/opencv-python/)
+
+
+
 ### setup wifi
 Hvis Man skal sætte
 Lav fil i roden, ```wpa_supplicant.conf```
