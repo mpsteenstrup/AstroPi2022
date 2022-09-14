@@ -72,8 +72,8 @@ sudo pip3 uninstall opencv-python
 sudo pip3 uninstall opencv-contrib-python
 sudo pip3 uninstall opencv-contrib-python-headless
 
-sudo pip3 install opencv-python==4.6.0.66
-sudo pip3 install opencv-contrib-python==4.6.0.66
+sudo pip3 install opencv-python==4.4.0.46
+sudo pip3 install opencv-contrib-python==4.4.0.46
 ```
 Den nyeste version at openCV kan findes på [https://pypi.org/project/opencv-python/](https://pypi.org/project/opencv-python/)
 
