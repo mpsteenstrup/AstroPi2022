@@ -81,4 +81,18 @@ Selve indholdet er.
 
 
 ## Skema som skal udfyldes
+  Astro-Pi udfordring
+
+  Hvert team skal udfylde nedenstående.
+
+
+
+  - Teamnavn, maks. 8 bogstaver
+
+  - Navn, alder og køn for alle deltagere
+
+  - Describe your team’s experiment and what they plan to investigate.
+
+  - What type of data does your team plan to gather?
+
 Udfyd skemaet og aflever det Lectio, [dokument](https://raw.githubusercontent.com/mpsteenstrup/AstroPi2022/master/materiale/tilmeldingsformular.txt)
