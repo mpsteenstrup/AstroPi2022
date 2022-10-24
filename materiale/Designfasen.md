@@ -61,15 +61,9 @@ Overordnet problemstilling
 Når projektet har en form hvor I synes at det I skal undersøge er interessant og muligt er I klar til at skrive projektansøgningen.
 
 
-## Commit Your idea
-**Tell us about your idea**
-Head to the [Mission Space Lab web page](https://astro-pi.org/mission-space-lab/) to submit your experiment idea. You will need to give us some details about the people in your team, and answer these two questions:
-* A. What is your experiment idea?
-* B. How will you use the Astro Pi computers to perform your experiment?
+## Submit your idea
 
-Your answers to these questions will help us assess your experiment for its **feasibility**, **scientific value**, and **creativity**.
-You will also need to decide on a unique team name. This name must have eight or fewer characters and contain no spaces. The team name should also only have alphanumeric characters — no symbols.
+Mentors can use the Astro Pi dashboard to enter the team details and submit the experiment idea. You should be able to answer these two questions:
 
-
-## Registrering
-I kan registrere jeres projekter her, [https://forms.raspberrypi.org/msl-team-registration/](https://forms.raspberrypi.org/msl-team-registration/).
+* What is your experiment idea?
+* How will you use the Astro Pi computers to perform your experiment?
