@@ -16,16 +16,16 @@ Det er vigtigt at kende sit udstyr. Her er en video med den nye Astro Pi.
 
 ### Eksperimentel ide checkliste
 
-    * Must be able to run independently, it cannot rely on astronaut interaction with the Astro Pi computer. We can’t be sure when an astronaut will be available, and they have a busy work schedule.
-    * Must be a scientific experiment, for example it should not be a game.
-    Should not require real-time communication with the Astro Pis on the ISS. We don’t have a radio communication module to be able to ‘give instructions’ from Earth.
-    * Should not rely on running on a specific date or time of day. We cannot predict accurately when each experiment will run.
-    * Must use the infrared camera correctly. The camera is not capable of thermal imaging. Any experiments submitted that require thermal imaging will sadly not be able to achieve flight status.
-    * Should not rely on a specific event happening that is unlikely to occur in the three hour period in which your experiment would run.
-    * Should not rely on the ISS passing over a specific feature on Earth that is unlikely to occur in the three hour period in which your experiment would run.
-    * Should not need more than 3GB of data for your results.
-    * Should not be a ‘Life in space’ experiment that retains images captured by the camera.
-    * Must not require any additional equipment or access to anything else on the ISS.
+* Must be able to run independently, it cannot rely on astronaut interaction with the Astro Pi computer. We can’t be sure when an astronaut will be available, and they have a busy work schedule.
+* Must be a scientific experiment, for example it should not be a game.
+Should not require real-time communication with the Astro Pis on the ISS. We don’t have a radio communication module to be able to ‘give instructions’ from Earth.
+* Should not rely on running on a specific date or time of day. We cannot predict accurately when each experiment will run.
+* Must use the infrared camera correctly. The camera is not capable of thermal imaging. Any experiments submitted that require thermal imaging will sadly not be able to achieve flight status.
+* Should not rely on a specific event happening that is unlikely to occur in the three hour period in which your experiment would run.
+* Should not rely on the ISS passing over a specific feature on Earth that is unlikely to occur in the three hour period in which your experiment would run.
+* Should not need more than 3GB of data for your results.
+* Should not be a ‘Life in space’ experiment that retains images captured by the camera.
+* Must not require any additional equipment or access to anything else on the ISS.
 
 ## Brainstorm
 Resultaterne af vores brainstorm kan ses i dokuentet [Idegenerering.pdf](/material/Idegenerering.pdf).
