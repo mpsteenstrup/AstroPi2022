@@ -82,6 +82,6 @@ Selve indholdet er.
 
 
 ## Skema som skal udfyldes
-Udfyd skemaet og aflever det Lectio, [dokument](/materiale/tilmeldingsformular.txt)
+Udfyd skemaet og aflever det Lectio, [dokument](https://raw.githubusercontent.com/mpsteenstrup/AstroPi2022/master/materiale/tilmeldingsformular.txt)
 
 <a href="https://raw.githubusercontent.com/mpsteenstrup/AstroPi2022/master/materiale/tilmeldingsformular.txt" target="_blank" /> test <a>
