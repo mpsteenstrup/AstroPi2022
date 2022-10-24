@@ -67,3 +67,15 @@ Mentors can use the Astro Pi dashboard to enter the team details and submit the 
 
 * What is your experiment idea?
 * How will you use the Astro Pi computers to perform your experiment?
+
+
+
+## Data til ESA
+* Teamnavn kun bogstaver og højst 8 bogstaver.
+* Navn på deltager.
+* Alder på deltager.
+* Køn.
+
+Selve indholdet er.
+* Describe your team’s experiment and what they plan to investigate.
+* What type of data does your team plan to gather?
