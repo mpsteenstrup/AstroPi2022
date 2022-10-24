@@ -29,8 +29,7 @@ Should not require real-time communication with the Astro Pis on the ISS. We don
 * Should not be a ‘Life in space’ experiment that retains images captured by the camera.
 * Must not require any additional equipment or access to anything else on the ISS.
 
-## Brainstorm
-Resultaterne af vores brainstorm kan ses i dokuentet [Idegenerering.pdf](/material/Idegenerering.pdf).
+
 
 ## ISS
 Idegenerering handler også om at kende til emnet! Her er en kort video om ISS, [ISS video](https://www.youtube.com/watch?v=NtrVwX1ncqk).
