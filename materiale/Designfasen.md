@@ -82,4 +82,4 @@ Selve indholdet er.
 
 
 ## Skema som skal udfyldes
-Udfyd skemaet og aflever det Lectio, [dokument](/material/tilmeldingsformular.txt)
+Udfyd skemaet og aflever det Lectio, [dokument](/materiale/tilmeldingsformular.txt)
