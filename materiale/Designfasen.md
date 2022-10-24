@@ -15,20 +15,17 @@ Det er vigtigt at kende sit udstyr. Her er en video med den nye Astro Pi.
 
 
 ### Eksperimentel ide checkliste
-* Your experiment can’t rely on astronaut interaction. We can’t be sure when an astronaut will be around the Astro Pis, and they have their own working schedule!
-* Your experiment shouldn’t be a game, but a scientific experiment!
-* Real-time communication with the Astro Pis on the ISS is not possible, because we don’t have a radio communication module to be able to ‘give instructions’ from Earth!
-* Don’t expect your experiment to run at a specific date and time. We can’t predict accurately when each experiment will run!
-Only for ‘Life on Earth’ experiments:
-* Don’t base your experiment on analysing the Earth’s temperature profile: that’s not possible with the Astro Pi hardware. The near- infrared camera is not a thermal imaging camera!
-* Don’t base your experiment on night-time photography. Most teams that have attempted this in the past ended up with entirely black images that couldn’t be analysed.
-* Don’t expect to photograph or film a specific event or location of your choice. We don’t know precisely where the ISS will be when your experiment runs, or whether a specific target on the ground will be visible on its flight path.
-*  It’s OK if you want to photograph specific types of targets like lakes or forests, but make sure to program the experiment with as many similar targets as possible to maximise the chance that at least a few of them will be captured when your program runs.
-* The detail level of the camera is about 161 metres on ground per pixel (assuming the ISS is at 400 km altitude), so don’t expect to be able to see features like cars, roads, or buildings.
-* Ensure you understand the ISS orbit. The ISS covers everywhere between 51.6 degrees latitude north of the equator and 51.6 degrees south of it. This means the ISS will never fly over places like Greenland, Siberia, or Antarctica. It is also unlikely that you will see the Aurora Borealis, because it occurs closer to the poles than these latitudes.
-Only for **‘Life in space’** experiments:
-* Storing pictures or recording video is not allowed.
 
+    * Must be able to run independently, it cannot rely on astronaut interaction with the Astro Pi computer. We can’t be sure when an astronaut will be available, and they have a busy work schedule.
+    * Must be a scientific experiment, for example it should not be a game.
+    Should not require real-time communication with the Astro Pis on the ISS. We don’t have a radio communication module to be able to ‘give instructions’ from Earth.
+    * Should not rely on running on a specific date or time of day. We cannot predict accurately when each experiment will run.
+    * Must use the infrared camera correctly. The camera is not capable of thermal imaging. Any experiments submitted that require thermal imaging will sadly not be able to achieve flight status.
+    * Should not rely on a specific event happening that is unlikely to occur in the three hour period in which your experiment would run.
+    * Should not rely on the ISS passing over a specific feature on Earth that is unlikely to occur in the three hour period in which your experiment would run.
+    * Should not need more than 3GB of data for your results.
+    * Should not be a ‘Life in space’ experiment that retains images captured by the camera.
+    * Must not require any additional equipment or access to anything else on the ISS.
 
 ## Brainstorm
 Resultaterne af vores brainstorm kan ses i dokuentet [Idegenerering.pdf](/material/Idegenerering.pdf).
