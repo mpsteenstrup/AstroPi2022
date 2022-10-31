@@ -37,3 +37,7 @@ Et mere uformelt rutediagram kan ses her, ![FlowchartTagBilled](billeder/Flowcha
 * Beskriv rutediagrammet.
 * Hvad mangler der for at det et 'rigtigt' rutediagram?
 * Tilføj det manglende slut.
+
+### Øvelse
+* Lav et overordnet rutediagram for jeres Astro-Pi projekt.
+* Tag et delelement og lav et detaljeret rutediagram.
