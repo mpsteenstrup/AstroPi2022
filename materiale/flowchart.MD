@@ -25,6 +25,15 @@ Rutediagrammer behøver ikke at være forbeholdt mekaniske processer eller progr
 * Arbejdsgangen ved løsning af matematikopgaver.
 * Find selv på et par stykker.
 
-## Billedmanipulation
+## Astro-Pi
+Her er et flowchart af første programstump i [GrundlæggendePython](GrundlæggendePython.md), ![FlowchartCount](billeder/FlowchartCount.png)
 ### Øvelse
-I forhold til billedmanipulation skal I udarbejde et rutediagram over brugerens interaktion med programmet. Lav en model for hvad brugeren ser, hvilke handlinger brugeren foretager og hvad slutresultatet er.
+* Gå til koden og se om du kan identificerer alle elementerne.
+* Lav flowchart af andre af småprogrammerne på siden.
+
+Et mere uformelt rutediagram kan ses her, ![FlowchartTagBilled](billeder/FlowchartTagBilled.png)
+
+### Øvelse
+* Beskriv rutediagrammet.
+* Hvad mangler der for at det et 'rigtigt' rutediagram?
+* Tilføj det manglende slut.
