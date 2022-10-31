@@ -11,7 +11,7 @@ oversigt over de afsnit vi har været igennem.
 * [Python filer, en samling af småprogrammer](/pythonFiler)
 * [Projektarbejdet](/materiale/Projektarbejdet.md)
 * [Programmeringsfærdigheder](#Programmeringsfærdigheder)
-
+* [Flowchart](/materiale/flowchart.md)
 
 ## introduktion
 
