@@ -26,7 +26,7 @@ Rutediagrammer behøver ikke at være forbeholdt mekaniske processer eller progr
 * Find selv på et par stykker.
 
 ## Astro-Pi
-Her er et flowchart af første programstump i [GrundlæggendePython](GrundlæggendePython.md), ![FlowchartCount](billeder/FlowchartCount.png)
+Her er et flowchart af første programstump i [GrundlæggendePython](GrundlæggendePython.md), ![FlowchartCount](billeder/flowchartCount.png)
 ### Øvelse
 * Gå til koden og se om du kan identificerer alle elementerne.
 * Lav flowchart af andre af småprogrammerne på siden.
