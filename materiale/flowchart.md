@@ -25,6 +25,7 @@ Rutediagrammer behøver ikke at være forbeholdt mekaniske processer eller progr
 * Arbejdsgangen ved løsning af matematikopgaver.
 * Find selv på et par stykker.
 
+
 ## Astro-Pi
 Her er et flowchart af første programstump i [GrundlæggendePython](GrundlæggendePython.md), ![FlowchartCount](billeder/flowchart_count.png)
 ### Øvelse
