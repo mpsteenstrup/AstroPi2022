@@ -12,7 +12,7 @@ oversigt over de afsnit vi har været igennem.
 * [Projektarbejdet](/materiale/Projektarbejdet.md)
 * [Programmeringsfærdigheder](#Programmeringsfærdigheder)
 * [Flowchart](/materiale/flowchart.md)
-* [Flowchart](/materiale/fase2guide.md)
+* [Fase 2 guide](/materiale/fase2guide.md)
 
 ## introduktion
 
