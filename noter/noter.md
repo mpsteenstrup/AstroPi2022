@@ -34,6 +34,7 @@ static domain_name_servers=192.168.1.1
 
 ### static IP
 Statisk IP addresse til informatik2022 router.
+* AstroPiRys1192.168.1.100 , backup system på sd-kort
 * AstroPiRys1 192.168.1.101
 * AstroPiRys2 192.168.1.102
 * AstroPiRys3 192.168.1.103
