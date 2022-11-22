@@ -7,7 +7,7 @@ oversigt over de afsnit vi har været igennem.
 * [Designfasen.](/materiale/Designfasen.md)
 * [Køleskab, et eksperiment med Astro Pi.](/materiale/Koeleskab.md)
 * [Astro Pi guidelines.](/materiale/Astro_Pi_Mission_Space_Lab_Guidelines_2020_21.pdf)
-* [Astro Pi samlet materiale](/AstroPiMateriale.pdf)
+* [Astro Pi samlet materiale](https://docs.google.com/document/d/1TvWkbjJ-wwO4O2CT9xOwN_tYdI0_nd-l7zSaXgmFQ2A/edit?usp=sharing)
 * [Python filer, en samling af småprogrammer](/pythonFiler)
 * [Projektarbejdet](/materiale/Projektarbejdet.md)
 * [Programmeringsfærdigheder](#Programmeringsfærdigheder)
