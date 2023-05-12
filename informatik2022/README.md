@@ -1,7 +1,6 @@
 # Astro Pi, forløb i informatik
 oversigt over de afsnit vi har været igennem.
 
-
 * [Virtuel introduktion.](/materiale/virtuelIntroduktion.md)
 * [Astro Pi 101, introduktion til Astro Pi.](/materiale/AstroPi101.md)
 * [Designfasen.](/materiale/Designfasen.md)
